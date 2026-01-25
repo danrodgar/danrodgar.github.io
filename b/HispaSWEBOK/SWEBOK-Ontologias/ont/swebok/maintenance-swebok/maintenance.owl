@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:swebok="http://www.cc.uah.es/ie/ont/swebok.owl#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns="http://www.cc.uah.es/ie/ont/swebok/maintenance.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:p1="http://www.owl-ontologies.com/assert.owl#"
+  xml:base="http://www.cc.uah.es/ie/ont/swebok/maintenance.owl">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://www.cc.uah.es/ie/ont/swebok.owl"/>
+  </owl:Ontology>
+  <owl:Class rdf:ID="SoftwareMaintenanceActivity">
+    <rdfs:comment xml:lang="en">The IEEE/EIA 12207 standard for software life cycle
+processes essentially depicts maintenance as one of the
+primary life cycle processes, and describes maintenance
+as the process of a software product undergoing
+“modification to code and associated documentation due
+to a problem or the need for improvement. The objective
+is to modify the existing software product while
+preserving its integrity.” ISO/IEC 14764, the international
+standard for software maintenance, defines software
+maintenance in the same terms as IEEE/EIA 12207 and
+emphasizes the pre-delivery aspects of maintenance,
+planning, for example.</rdfs:comment>
+    <rdfs:comment xml:lang="en">Software maintenance is defined in the IEEE Standard for
+Software Maintenance, IEEE 1219, as the modification of
+a software product after delivery to correct faults, to
+improve performance or other attributes, or to adapt the
+product to a modified environment. The standard also
+addresses maintenance activities prior to delivery of the
+software product, but only in an information appendix of
+the standard.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.cc.uah.es/ie/ont/swebok.owl#SoftwareEngineeringAction"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SoftwareFaultCorrectionActivity">
+    <rdfs:subClassOf rdf:resource="#SoftwareMaintenanceActivity"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SoftwareImprovementActivity">
+    <rdfs:subClassOf rdf:resource="#SoftwareMaintenanceActivity"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SoftwareDefect"/>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.2.1, Build 365)  http://protege.stanford.edu -->

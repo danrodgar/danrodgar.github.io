@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:swebok="http://www.cc.uah.es/ie/ont/swebok.owl#"
+    xmlns="http://www.cc.uah.es/ie/ont/swebok/requirements.owl#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xml:base="http://www.cc.uah.es/ie/ont/swebok/requirements.owl">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://www.cc.uah.es/ie/ont/swebok.owl"/>
+  </owl:Ontology>
+  <rdfs:Class rdf:about="http://www.cc.uah.es/ie/ont/swebok.owl#oc_SoftwareEngineeringArtifact"/>
+  <owl:Class rdf:ID="FunctionalRequirements">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Functional requirements describe the functions that the software is to execute; for example, formatting some text or modulating a signal. They are sometimes known as capabilities.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="SoftwareRequirements"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Stakeholder">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An individual professionally skilled for requirements process. A principle for the good especifications is that  all the stakeholders be identified, the nature of their “stake” analyzed, and their requirements elicited</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.cc.uah.es/ie/ont/swebok.owl#oc_Professional"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Constraints">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="OperationalEnviromentSpecification"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#SoftwareRequirements">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="SystemRequirements"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A software requirement is a property which must be exhibited in order to solve some problem in the real world. The requirements on particular software are typically a complex combination of
+requirements from different people at different levels of an organization and from the environment in which the software will operate</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#OperationalEnviromentSpecification">
+    <rdfs:subClassOf rdf:resource="http://www.cc.uah.es/ie/ont/swebok.owl#oc_Specification"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Requirements will be derived from the environment in which the software will be executed, the enviroment not always are given</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="ObjectModels">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="RequirementsAnalysis"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="RequirementValidation">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An essential property of a software requirement is that it should be possible to validate that the finished product satisfies it</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="oc_TechniqueType"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Scenarios">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A valuable means for providing context to the elicitation of user requirements. They allow the software engineer to provide a framework for questions about user tasks by permitting “what if” and “how is this done” questions to be asked. The most common type of scenario is the use case, because scenario notations such as use cases and diagrams are common in modeling software.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="RequirementElicitation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="FeasibilityStudies">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#RequirementsAnalysis"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Activitie which provide input into the requirements process</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#oc_TechniqueType">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TechniqueType is the the collection of types of practical actions that require specific skills and are used for specific purposes or tasks. Although TechniqueType is a specialization of SkilledActivityType, techniques are usually not main, general or primary activities, but rather sub-activities that accomplish more specific elements of more general SkilledActivityTypes. For example, DoingMath would not be a instance of TechniqueType, but a spec of SolvingAMathematicalEquation could be as long as it represents a particular approach towards solving a math problem</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="oc_SkilledActivityType"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#SystemRequirements">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >System requirements are the requirements for the system as a whole. In a system containing software components, software requirements are derived from system requirements. System requirements, by contrast, encompass user requirements, requirements of other stakeholders (such as regulatory authorities), and requirements without an identifiable human source.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="RequirementsSpecificationDocument"/>
+    </rdfs:subClassOf>
+    <owl:equivalentClass>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.cc.uah.es/ie/ont/swebok.owl#oc_performedBy"/>
+        <owl:someValuesFrom rdf:resource="http://www.cc.uah.es/ie/ont/swebok.owl#oc_Professional"/>
+      </owl:Restriction>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:ID="UserInteractions">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#RequirementsAnalysis"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="oc_RequirementsArtifacts">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.cc.uah.es/ie/ont/swebok.owl#oc_Professional"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="oc_createdBy"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="http://www.cc.uah.es/ie/ont/swebok.owl#oc_InformationBearingThing"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="#RequirementElicitation"/>
+        </owl:someValuesFrom>
+        <owl:onProperty rdf:resource="http://www.cc.uah.es/ie/ont/swebok.owl#oc_performedBy"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Activities which provide input into the requirements process</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="DataModels">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#RequirementsAnalysis"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="efficiency">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="QualityAttribute"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#oc_SkilledActivityType">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="oc_LearnedActivityType"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >This is the collection of collections of activities which require some specialized skill to perform--i.e., to play any role which is a specPred of doneBy. So, all skilled activities are learned, but not all learned activities are skilled. For instance, WalkingOnTwoLegs is an instance of LearnedActivityType but not an instance of SkilledActivityType. Since every normal person learns to walk, it requires no special skill. In contrast, Juggling is an instance of SkilledActivityType, for most people do not know how to juggle.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="custormer">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An individual professionally skilled for required software. This group comprises those who have commissioned the software or who represent the software’s target market.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Stakeholder"/>
+  </owl:Class>
+  <owl:Class rdf:ID="RelationshipsRepresentation">
+    <rdfs:subClassOf rdf:resource="#oc_RequirementsArtifacts"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Testing">
+    <rdfs:subClassOf rdf:resource="#RequirementValidation"/>
+  </owl:Class>
+  <owl:Class rdf:ID="FacilitatedMeeting">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The purpose of these is to try to achieve a summative effect whereby a group of people can bring more insight into their software requirements than by working individually.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#RequirementElicitation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#oc_LearnedActivityType">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >This is the collection of activities which must first be learned before they can be performed--i.e., before any role which is a specPred of doneBy can be played</rdfs:comment>
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://www.cc.uah.es/ie/ont/swebok.owl#SoftwareEngineeringAction">
+        <rdfs:subClassOf>
+          <owl:Restriction>
+            <owl:onProperty>
+              <owl:ObjectProperty rdf:ID="oc_doneBy"/>
+            </owl:onProperty>
+            <owl:someValuesFrom rdf:resource="http://www.cc.uah.es/ie/ont/swebok.owl#oc_Professional"/>
+          </owl:Restriction>
+        </rdfs:subClassOf>
+      </rdf:Description>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="StateModels">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#RequirementsAnalysis"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ProcessParameters">
+    <rdfs:subClassOf rdf:resource="http://www.cc.uah.es/ie/ont/swebok.owl#oc_ProgramSpecification"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A process parameter is essentially a constraint on the development of the software (for example, “The software shall be written in Ada.”). These are sometimes known as process requirements.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="InteroperabilityConstraints">
+    <rdfs:subClassOf rdf:resource="#Constraints"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Requirements will be derived from the environment in which the software will be executed, in this case we are talking about the office enviroment</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Observation">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >The importance of software context within the organizational environment has led to the
+adaptation of observational techniques for requirements elicitation.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#RequirementElicitation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="NonFunctionalRequirements">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nonfunctional requirements are the ones that act to constrain the solution. Nonfunctional requirements are sometimes known as constraints or quality requirements.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#SoftwareRequirements"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="oc_beRestricted"/>
+        </owl:onProperty>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="#QualityAttribute"/>
+        </owl:someValuesFrom>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="RequirementsRepresentation">
+    <rdfs:subClassOf rdf:resource="#oc_RequirementsArtifacts"/>
+  </owl:Class>
+  <owl:Class rdf:about="#RequirementsSpecificationDocument">
+    <rdfs:subClassOf rdf:resource="http://www.cc.uah.es/ie/ont/swebok.owl#SoftwareEngineeringArtifact"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#oc_TechniqueType"/>
+        <owl:onProperty rdf:resource="http://www.cc.uah.es/ie/ont/swebok.owl#oc_performedBy"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="usability">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#QualityAttribute"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="EventTraces">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#RequirementsAnalysis"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ControlFlows">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#RequirementsAnalysis"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Interview">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A “traditional” means of eliciting requirements</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#RequirementElicitation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="DataFlows">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#RequirementsAnalysis"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#RequirementElicitation">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Once the requirements sources have been identified, the software engineer can start eliciting requirements from them. This topic concentrates on techniques for getting human stakeholders to articulate their requirements. It is particularly important to understand that elicitation is not a passive activity, and that, even if cooperative and articulate stakeholders are available, the software engineer has to work hard to elicit the right information.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#oc_TechniqueType"/>
+  </owl:Class>
+  <owl:Class rdf:ID="user">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An individual professionally skilled in operate  the software. This group comprises those who will operate the software. It is often a heterogeneous group comprising people with different roles and requirements.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Stakeholder"/>
+  </owl:Class>
+  <owl:Class rdf:ID="OrganizationalEnviromentSpecification">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Software is often required to support a business process, the selection of which may be conditioned by the structure, culture, and internal politics of the organization. The software engineer needs to be sensitive to these, since, in general, new software should not force unplanned change on the business process. Not always is given</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.cc.uah.es/ie/ont/swebok.owl#oc_Specification"/>
+  </owl:Class>
+  <owl:Class rdf:ID="marketAnalyst">
+    <rdfs:subClassOf rdf:resource="#Stakeholder"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A mass-market product will not have a commissioning customer, so marketing people are often needed to establish what the market needs and to act as proxy customers</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="TimingConstrints">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Requirements will be derived from the environment in which the software will be executed, in this case we are talking about the real-time enviroment</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Constraints"/>
+  </owl:Class>
+  <owl:Class rdf:ID="AcceptanceTest">
+    <rdfs:subClassOf rdf:resource="#RequirementValidation"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >. An important task is therefore planning how to verify each requirement. In most cases, designing acceptance tests does this. To be validated, they must first be analyzed to the point where they can be expressed quantitatively</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="MarketingStudies">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#RequirementsAnalysis"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Activitie which provide input into the requirements process</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="ProductParamenters">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Product parameters are requirements on software to be developed (for example, “The software shall verify that a student meets all prerequisites before he or she registers for a course.”)</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.cc.uah.es/ie/ont/swebok.owl#oc_ProgramSpecification"/>
+  </owl:Class>
+  <owl:Class rdf:about="#RequirementsAnalysis">
+    <rdfs:subClassOf rdf:resource="#oc_TechniqueType"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="oc_usedTo"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="#oc_RequirementsArtifacts"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Prototypes">
+    <rdfs:subClassOf rdf:resource="#RequirementValidation"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A valuable tool for clarifying unclear requirements. They can act in a similar way to scenarios by providing users with a context within which they can better understand what information they need to provide. Prototyping is commonly a means for validating the software engineer’s interpretation of the software requirements, as well as for eliciting new requirements.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#QualityAttribute">
+    <rdfs:subClassOf rdf:resource="#ProcessParameters"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="oc_suposedToBe"/>
+  <owl:ObjectProperty rdf:ID="oc_producedBy"/>
+  <rdf:Description rdf:about="http://www.cc.uah.es/ie/ont/swebok.owl#oc_Artifact">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.cc.uah.es/ie/ont/swebok.owl#oc_Specification"/>
+        <owl:onProperty rdf:resource="#oc_suposedToBe"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="http://www.cc.uah.es/ie/ont/swebok.owl#oc_Action"/>
+        <owl:onProperty rdf:resource="#oc_producedBy"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cc.uah.es/ie/ont/swebok.owl#SoftwareEngineer">
+    <rdfs:comment xml:lang="en">An individual professionally skilled for Software Engineering. It will not  be possible to perfectly satisfy the requirements of every stakeholder,  and it is the software engineer&amp;#8217;s job to negotiate trade-offs which  are both acceptable to the principal stakeholders and within budgetary,  technical, regulatory, and other constraints.</rdfs:comment>
+    <owl:disjointWith rdf:resource="#Stakeholder"/>
+  </rdf:Description>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.2, Build 355)  http://protege.stanford.edu -->

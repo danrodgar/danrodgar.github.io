@@ -1,0 +1,650 @@
+/* CSS Document */
+body
+
+{
+	background-color:#7CB9D2;
+
+	margin: 0px;
+
+	padding: 0px;
+
+	text-align:center;
+
+	direction:ltr;
+
+	font-size: 100%;
+
+}
+
+#imagen
+{
+padding:1em;
+}
+
+a
+{
+color:#003366;
+}
+
+a:hover
+{
+color:#FF0000;
+text-decoration:underline;
+}
+
+a:visited
+{
+color:#003366;
+}
+
+#super
+
+{
+
+		margin:0 auto 0 auto;	/*Centrado de p?gina*/
+
+		width:47.5em;			/*Ancho m?ximo*/
+
+		text-align:left;		/*Corrige lo del IE*/
+
+}
+
+
+
+#Pagina
+
+{
+
+	position:relative;
+
+	width:47.5em; 
+	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	float:left;
+
+	margin-bottom:1em;
+
+	margin-top:0em;
+
+}
+
+#cabecera
+
+{
+	width:47.5em;
+
+	height:7.8em;
+
+	padding:0px;
+
+	margin:0px;
+
+	margin-bottom:0px;
+
+	border:1px solid #999999;
+
+}
+
+#cabecera #imagenFondoCabecera
+
+{
+
+	width:100%;
+
+	height:100%;
+
+	margin-bottom:-10px;	/*para q vaya en IExplorer*/
+
+}
+
+#cuerpo
+{
+	float:left;
+	width:44em;
+    padding-left:3.5em;
+	padding-bottom:2em;
+	background-color:#FFFFFF;
+	margin-bottom:0.5em;
+	margin-top:0em;
+	padding-top:0em;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	border-right:1px solid #999999;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#cuerpo2
+{
+	float:left;
+	width:46em;
+	padding-left:1.5em;
+	padding-bottom:2em;
+	background-color:#FFFFFF;
+	margin-bottom:0.5em;
+	margin-top:0em;
+	padding-top:0em;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	border-right:1px solid #999999;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#cuerpo3
+{
+	float:left;
+	width:47.5em;
+	padding-bottom:2em;
+	background-color:#FFFFFF;
+	margin-bottom:0.5em;
+	margin-top:0em;
+	padding-top:0em;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	border-right:1px solid #999999;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#cuerpo4
+{
+	float:left;
+	width:38em;
+	padding-left:9.5em;
+	padding-bottom:2em;
+	background-color:#FFFFFF;
+	margin-bottom:0.5em;
+	margin-top:0em;
+	padding-top:0em;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	border-right:1px solid #999999;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#cuerpo5
+{
+	float:left;
+	width:44.5em;
+	padding-left:3em;
+	padding-bottom:2em;
+	background-color:#FFFFFF;
+	margin-bottom:0.5em;
+	margin-top:0em;
+	padding-top:0em;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	border-right:1px solid #999999;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#intro
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:0.7em;
+text-align:center;
+padding-top:1em;
+padding-bottom:1em;
+padding-left:2em;
+padding-right:2em;
+}
+
+
+
+
+#grupo
+{
+
+padding-top:0.5em;
+padding-bottom:0.5em;
+padding-right:0.5em;
+
+margin-left:1em;
+
+border-color:#003300;
+border-style:solid;
+border-width:0.09em;
+/*moz-border-radius-topleft:15px;*/
+}
+
+
+#centro
+
+{
+	float:left;
+	padding-top:2em;
+}
+
+#titulo
+{
+font-size:1.5em;
+}
+
+h3
+{
+text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:1.2em;
+color:#003366;
+}
+
+#centro h1
+{
+text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:1.8em;
+}
+
+#cuerpo h1
+{
+text-align:center;
+}
+
+#cuerpo h2
+{
+text-align:center;
+}
+
+#cuerpo h3
+{
+text-align:center;
+}
+
+
+#contenido
+
+{
+
+	width:36em !important;	/*ancho*/
+
+	position:relative;
+
+}
+
+#pie
+
+{
+
+	position:relative;
+
+	float:left;
+
+	width:68em;
+
+	height:5.8em;
+	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	
+	font-size:0.7em;
+	
+	text-align:center;
+
+
+}
+
+#pie a
+{
+color:#000000;
+}
+#pie a:hover
+{
+color:#FF0000;
+}
+#pie a:visited
+{
+color:#000000;
+}
+
+
+.cabecera{
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-weight:700;
+
+	font-size:1.2em;
+
+	color:#333333;
+
+	text-align:center;
+
+	background-color:#C1D197;
+
+	border-color:#999999;
+
+}
+
+.buscador 
+{
+	width: 40em;
+	border: 0.08em solid #999999;
+	margin-top: 1em;
+	background-color: #C6E2EE;
+	position:relative;
+	float:left;
+	margin-bottom:0.5em;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.buscador2 
+{
+	width: 41.2em;
+	border: 0.08em solid #999999;
+	margin-top: 1em;
+	background-color: #C6E2EE;
+	position:relative;
+	float:left;
+	margin-bottom:0.5em;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.buscador .titulo
+{
+text-align:center;
+color:#003366;
+background-color:#CCCCCC;
+border:0.08em solid #999999;
+margin-bottom:1.2em;
+font-weight:bold;
+}
+
+.buscador2 .titulo
+{
+text-align:center;
+color:#003366;
+background-color:#CCCCCC;
+border:0.08em solid #999999;
+margin-bottom:1.2em;
+font-weight:bold;
+}
+
+.opciones 
+{
+	width: 40em;
+	border: 0.08em solid #999999;
+	margin-top: 0.5em;
+	background-color: #C6E2EE;
+	position:relative;
+	float:left;
+	margin-bottom:1em;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.opciones .titulo
+{
+text-align:center;
+color:#003366;
+background-color:#CCCCCC;
+border:0.08em solid #999999;
+margin-bottom:1.2em;
+font-weight:bold;
+}
+
+.opciones li
+{
+margin-bottom:1em;
+}
+
+#listado
+{
+	width: 52em;
+	border: 0.08em solid #999999;
+	margin-top: 1.17em;
+	background-color: #C6E2EE;
+	position:relative;
+	float:left;
+	margin-bottom:1em;
+	/*margin-left:3.5em;*/
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.8em;
+}
+
+#rdo
+{
+	width: 51.5em;
+	border: 0.08em solid #999999;
+	margin-top: 1.17em;
+	background-color: #C6E2EE;
+	position:relative;
+	float:left;
+	margin-bottom:1em;
+	/*margin-left:3.5em;*/
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.8em;
+}
+
+#listado li
+{
+margin-bottom:0.8em;
+}
+
+#paginacion
+{
+text-align:center;
+width: 46em;
+margin-bottom:1em;
+}
+
+#bibtex
+{
+	width: 46em;
+	border: 0.08em solid #999999;
+	margin-top: 1.17em;
+	background-color: #FFFFFF;
+	position:relative;
+	float:left;
+	margin-bottom:1em;
+	margin-left:0.01em;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:1em;
+	
+}
+
+#bibtex #titulobib
+{
+text-align:center;
+color:#003366;
+background-color:#CCCCCC;
+border:0.08em solid #999999;
+margin-bottom:1.2em;
+font-weight:bold;
+}
+
+#bibtex #contenidobib
+{
+padding:1em;
+}
+
+.tablabib
+{
+border:0.08em solid #000000;
+background-color:#FFFFFF;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:0.8em;
+width:56em;
+}
+
+.tablardo
+{
+border:0.08em solid #000000;
+background-color:#FFFFFF;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+width:53em;
+font-size:0.9em;
+margin-left:2em;
+}
+
+.tablabib thead
+{
+border:0.08em solid #999999;
+background-color:#CCCCCC;
+color:#003366;
+text-align:center;
+}
+
+.tablabib td
+{
+padding:0.5em;
+}
+
+.tablabib .tipo
+{
+background-color:#C6E2EE;
+width:9em;
+}
+
+.tablabib .title
+{
+background-color:#C6E2EE;
+width:20em;
+}
+
+.tablabib .author
+{
+background-color:#C6E2EE;
+width:15em;
+}
+
+.tablabib .year
+{
+text-align:center;
+background-color:#C6E2EE;
+width:4em;
+}
+
+.tablabib .ver
+{
+background-color:#C6E2EE;
+width:6em;
+text-align:center;
+}
+
+
+.tablardo thead
+{
+border:0.08em solid #999999;
+background-color:#CCCCCC;
+color:#003366;
+text-align:center;
+}
+
+.tablardo td
+{
+padding:0.4em;
+}
+
+.tablardo .tipo
+{
+background-color:#C6E2EE;
+width:9em;
+}
+
+.tablardo .title
+{
+background-color:#C6E2EE;
+width:15em;
+}
+
+.tablardo .author
+{
+background-color:#C6E2EE;
+width:12em;
+}
+
+.tablardo .year
+{
+text-align:center;
+background-color:#C6E2EE;
+width:4em;
+}
+
+.tablardo .ver
+{
+background-color:#C6E2EE;
+width:7em;
+text-align:center;
+}
+
+#insertar
+{
+	width: 36em;
+	border: 0.08em solid #999999;
+	margin-top: 1.17em;
+	background-color:#C6E2EE;
+	position:relative;
+	float:left;
+	margin-bottom:1em;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.8em;
+}
+
+.tablaInsertar
+{
+margin-left:1.2em;
+background-color:#C6E2EE;
+}
+
+#insertar #tituloins
+{
+text-align:center;
+color:#003366;
+background-color:#CCCCCC;
+border:0.08em solid #999999;
+margin-bottom:1.2em;
+font-weight:bold;
+}
+
+.tablaInsertar .atributo
+{
+text-align:right;
+}
+
+/*.tablaInsertar .valor
+{
+background-color:#C6E2EE;
+width:27em;
+}*/
+
+.tablaInsertar .botonInsertar
+{
+text-align:center;
+background-color:#C6E2EE;
+}
+
+.parrafo
+{
+text-align:center;
+margin:4em;
+}
+
+.boton
+{
+	width:10em;
+
+	height:1.8em;
+
+	vertical-align: middle;
+
+	margin:0.8em;
+	
+	padding:0.3em;
+
+	font-size:0.9em;
+
+	background-color:#CCCCCC;
+
+	color:#003366;
+
+	border:1px solid #003366;
+}
+.boton a
+{
+text-decoration:none;
+}
+
+.boton a:visited
+{
+text-decoration:none;
+}
+
+.boton a:hover
+{
+text-decoration:none;
+}

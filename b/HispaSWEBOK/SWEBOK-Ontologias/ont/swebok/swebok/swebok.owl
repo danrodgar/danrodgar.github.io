@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns="http://www.cc.uah.es/ie/ont/swebok.owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xml:base="http://www.cc.uah.es/ie/ont/swebok.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="SoftwareEngineeringAction">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="oc_PurposefulAction"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A purposeful action carried out by a Sofware Engineer for the purpose of creating software in a broad sense.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="oc_PersonWithOccupation">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"The collection of persons who have a (skilled or unskilled) occupation. Most (but not all) instances of PersonWithOccupation spend a significant part of their waking hours doing activities that are characteristic of their occupations. Typically their actions are performed for pay (but not always: consider a "starving artist" who is unable to sell any of her works). Note that a PersonWithOccupation need not be working over the entire duration of when s/he has an occupation; e.g. college professors on summer break and the temporarily unemployed still have occupations. "</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="oc_Person"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="oc_AgentGeneric">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"A specialization of SomethingExisting. Each instance of Agent-Generic is a being that has desires or intentions, and the ability to act on those desires or intentions. Instances of Agent-Generic may be individuals (see the specialization IndividualAgent) or they may consist of several Agent-Generics operating together (see the specialization MultiIndividualAgent)."</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="SoftwareProduct">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >#swebokref:equivalent-rationale:SoftwareEngineeringArtifact:11.1.3.2.p3#</rdfs:comment>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Any software engineering artifact.</rdfs:comment>
+    <owl:equivalentClass>
+      <owl:Class rdf:ID="SoftwareEngineeringArtifact"/>
+    </owl:equivalentClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="oc_Artifact"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="oc_ComputerProgramCopy">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="oc_InformationBearingThing"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"A collection of InformationBearingThings which are programCopies of a ComputerProgram-CW. Examples: A bank of memory registers, a set of hard disk sectors, a stack of punch cards, a printout of ComputerCode, a satellite transmission. A ComputerProgramCopy might not have the exact same ComputerCode as other programCopies of the same ComputerProgram-CW, and it might not even have the exact same algorithms, but the functionality must be about the same."</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#oc_PurposefulAction">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor."</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="oc_Action"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="oc_Professional">
+    <rdfs:comment xml:lang="en">"The collection of all people who work at a job for which a skill that most adults do not have. This skill is normally achieved through training, however people who use a "native" skill such as an artistic skill, in their work are also considered Professionals. A person with a HighSchoolDiploma, but no additional training, is not expected to be able to be hired to a professional position and perform the job requirements. The training need not be academic in nature. One can be a professional child actress, chess player, boxer, or shaman, as well as a professional lawyer, architect, secretary, or politician. Although factory workers, farm workers, construction workers, etc. develop a level of skill that makes them able to do their jobs far better than a person off the street (professional or not) these positions are not considered professional positions because the skill is developed experientially on the job."</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="oc_SkilledWorker"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="oc_SocialBeing">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="oc_IntelligentAgent"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"A specialization of IntelligentAgent. Each instance of SocialBeing is an intelligent agent whose status as an agent is acknowledged within some social system, and who is capable of playing certain social roles within that system. Note that in many (but not all) cases, a SocialBeing will have certain rights and responsibilities associated with his/her/its status within the relevant social system."</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="oc_ProgramSpecification">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="oc_Specification"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"A specialization of Specification. Each instance of this collection is not a computer program itself (i.e. lines of code), but an abstract characterization of how a program should behave. For instance, a sorting program can be specified by requiring that the program's output be a list of the same elements as the input such that no element follows an element that is greater than it. A notable example of a ProgramSpecification is UNIX - which is not (contrary to popular belief) an operating system per se, but a specification to which many different operating systems (instances of UnixOS) conform. Note that instances of ProgramSpecification do not necessarily specify single, discrete programs -- thus many of the internet's "RFC" protocol-establishing documents (see RequestForComments-Internet) fall into this collection"</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#oc_SkilledWorker">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"A sub-collection of PersonWithOccupation. Each instance is a worker who has acquired special skills"</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#oc_PersonWithOccupation"/>
+  </owl:Class>
+  <owl:Class rdf:about="#oc_Artifact">
+    <rdfs:comment xml:lang="en">"Each instance of Artifact is an at least partially tangible thing which was intentionally created by an #$Agent (or a group of #$Agents working together) to serve some purpose or perform some function."</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#SoftwareEngineeringArtifact">
+    <rdfs:subClassOf rdf:resource="#oc_Artifact"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Any of the artifacts produced through Software Engineering actions.</rdfs:comment>
+    <owl:equivalentClass rdf:resource="#SoftwareProduct"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SoftwareEngineer">
+    <rdfs:subClassOf rdf:resource="#oc_Professional"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >#swebokref:superconcept-rationale:oc_Professional:1.pre#</rdfs:comment>
+    <rdfs:comment xml:lang="en">An individual professionally skilled for Software Engineering.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="oc_SoftwareVersionSeries">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="oc_SoftwareObject"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"A specialization of SoftwareObject. Each instance of SoftwareVersionSeries is a series consisting of versions of software. A positive example is the Pine versions 4.0 through 4.5 inclusive. Negative examples include Pine and Pine version 4.0, which are both instances of SoftwareObject-Individual. SoftwareObject-Individual and SoftwareVersionSeries are disjoint and they partition the collection SoftwareObject."</rdfs:comment>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="oc_SoftwareObject-Individual"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="oc_ComputerProgram-CW">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"A specialization of PropositionalConceptualWork, ComputerFile-CW and SoftwareObject-Individual. Each instance of ComputerProgram-CW is a deliberately created abstract object composed of propositions that together constitute a list of instructions for computers to execute. 
+Example instances include Emacs-TheProgram and LinuxKernel-TheProgram. 
+
+Instances of this collection are distinct from computer code and from both running and installed programs. The instructions that comprise an instance of ComputerProgram-CW can be expressed as abstract computer code (see ComputerCode), but no list of instructions expressed in code constitutes an instance of ComputerProgram-CW. Rather, the code in which an instance of ComputerProgram-CW is expressed constitutes an instance of AbstractInformationStructure that can be related to the program it expresses using the predicate programCode. More than one instance of ComputerCode can express the same instance of ComputerProgram-CW; for example, a single instance of ComputerProgram-CW can be written in source code (see ComputerCode-Source) in several different computer languages, or it can be complied as a binary executable (see ComputerCode-Binary). A physical instantiation of a ComputerProgram-CW is a ComputerProgramCopy which is an InformationBearingThing and is related to its ComputerProgram-CW by the predicate programCopies. An instance of ComputerProgram-CW that is being executed is a ComputerProcessRunning, related to its ComputerProgram-CW by the predicate programOfProcess."</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#oc_SoftwareObject-Individual"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#oc_Action">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"The collection of Events (q.v.) that are carried out by some "doer" (see doneBy). Instances of Action include any event in which one or more actors effect some change in the (tangible or intangible) state of the world, typically by an expenditure of effort or energy. Note that it is not required that any tangible object be moved, changed, produced, or destroyed for an action to occur; the effects of an action might be intangible (such as a change in a bank balance or the intimidation of a subordinate). Note also that the doer of an action, though typically an #$Agent (q.v.), need not be (e.g. a falling rock that dents a car's roof). Depending upon the context, doers of actions might be animate or inanimate, conscious or nonconscious."</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#oc_SoftwareObject-Individual">
+    <owl:disjointWith rdf:resource="#oc_SoftwareVersionSeries"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#oc_SoftwareObject"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"A specialization of SoftwareObject. Each instance of SoftwareObject-Individual is either a versioned or unversioned non-series software object, such as a program, a version of a program, a software package, or a library. Positive examples include Netscape Navigator, Netscape Navigator version 4.76, glibc, and SUNWzip. Negative examples include Netscape Navigator versions 3 through 4 inclusive, which is an instance of SoftwareVersionSeries (q.v.). SoftwareObject-Individual and SoftwareVersionSeries are disjoint and they partition SoftwareObject."</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="oc_ConceptualWork">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"A specialization of DevisedPracticeOrWork (q.v.). Each instance of ConceptualWork is a partially abstract work (in the sense that each instance has a beginning in time, but lacks a location in space) which either has an associated AbstractInformationStructure (q.v.) or has a version with an associated AbstractInformationStructure. Conceptual works or versions of conceptual works can be instantiated in instances of InformationBearingThing (q.v.); every such instantiation of a conceptual work will also be an instantiation of an instance of AbstractInformationStructure. Notable specializations of ConceptualWork include ComputerProgram-CW, VisualWork, and Book-CW."</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#oc_Person">
+    <rdfs:subClassOf rdf:resource="#oc_SocialBeing"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"A specialization of SocialBeing and IndividualAgent: the collection of all persons. Personhood is a vague, emotionally loaded yet extremely salient concept with respect to common-sense reasoning. Something is an instance of Person if it is an individual IntelligentAgent with perceptual sensibility, capable of complex social relationships, and possessing a certain moral sophistication and an intrinsic moral value, or -- if it lacks certain of these characteristics -- is a member of a distinct type of SocialBeing (usually a species) which generally possesses such characteristics and is therefore acknowledged by other members of that type as a person within their social systems. Most currently known instances of Person are instances of HomoSapiens but there is no reason why all need be (consider Hobbits in the fictional world of LordOfTheRings-Trilogy). They need not even be instances of BiologicalLivingObject (consider the possibility of a person-like AI). "</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#oc_IntelligentAgent">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"A specialization of Agent-Generic and InformationStore (qq.v.). An agent is an IntelligentAgent if and only if it is capable of knowing and acting, and capable of employing its knowledge in its actions. An intelligent agent typically knowsAbout certain things, and its beliefs concerning those things influences its actions. As with agents generally, an intelligent agent might either be a single individual, such as a person, or a group consisting of two or more individual agents, such as a business or government organization. "</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#oc_AgentGeneric"/>
+  </owl:Class>
+  <owl:Class rdf:about="#oc_SoftwareObject">
+    <rdfs:subClassOf rdf:resource="#oc_ConceptualWork"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"A specialization of ConceptualWork. SoftwareObject is the most general collection of software. Each instance of SoftwareObject is either an individual computer program, a computer program module, a software package, a software library file (see ComputerSoftwareLibrary-CW), or a version or series thereof. Each instance of SoftwareObject is such that either it (or a member of the version series that constitutes it) could conceivably be instantiated in code that could run on some computer system, even if the code has not been written yet, and even if it could not run independently of other code (see the specialization ComputerProgramModule-CW). SoftwareObject does not include purely data objects that software could operate on. Pine, Pine version 4.20, and Pine versions 4.20 through 4.33 inclusive are each instances of SoftwareObject. SoftwareObject is partitioned into SoftwareObject-Individual and SoftwareVersionSeries."</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#oc_InformationBearingThing">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"A collection of spatially-localized individuals, including various actions and events as well as physical objects. Each instance of InformationBearingThing (or "IBT") is an item that contains information (for an agent who knows how to interpret it). Examples: a copy of the novel Moby Dick; a signal buoy; a photograph; an elevator sign in Braille; a map; a US dollar bill; a resume; a musical score; copies of the CycProgram. 
+For representations of the propositional content of information bearing things, see PropositionalInformationThing; but note that not all IBTs have a propositional content (cf. ArtObject). An important specialization of InformationBearingThing is InformationBearingObject, which comprises all of those IBTs that are also physical objects (i.e. PartiallyTangibles). Though often a subtle task in particular contexts, it is important to distinguish the various specializations of InformationBearingThing from those of AspatialInformationStore (whose instances are the chunks of information instantiated in particular IBTs; see instantiationOfAIT) and from those of ConceptualWork (whose instances are the conceptual or artistic creations that are instantiated in particular IBTs; see instantiationOfWork). "</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#oc_Specification">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"A specialization of PropositionalConceptualWork. Each instance of Specification is an abstract work that constitutes a description of the properties of a Situation or a SomethingExisting, and sometimes even entire collections of such things. Things are made, bought, and searched for according to specifications, which can be instantiated as printed instructions or as diagrams. This collection is modally neutral with regard to the descriptive character of its instances. Thus, it includes descriptions of how things are, were, should be, must be, etc."</rdfs:comment>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="oc_performedBy">
+    <rdfs:domain rdf:resource="#oc_Action"/>
+    <rdfs:range rdf:resource="#oc_AgentGeneric"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="oc_programCopies">
+    <rdfs:domain rdf:resource="#oc_ComputerProgram-CW"/>
+    <rdfs:range rdf:resource="#oc_ComputerProgramCopy"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >"A predicate that relates instances of ComputerProgram-CW to instances of ComputerProgramCopy. (programCopies PROG COPY) means that COPY is a physical instantiation of PROG. For example: (programCopies Emacs-TheProgram ACopyOfEmacsOnMyHardDrive). 
+A ComputerProgramCopy might not have the exact same ComputerCode as other programCopies of the same ComputerProgram-CW, and it might not even have the exact same algorithms, but the functionality must be about the same. 
+
+For example, if (SoftwareVersionFn Emacs-TheProgram "20.4") were written in C, and one compiled one copy of it on a Solaris machine and another copy on an HP-UX machine, the compiled versions would be different but they would still be programCopies of the same ComputerProgram-CW, (SoftwareVersionFn Emacs-TheProgram "20.4"), and also programCopies of Emacs-TheProgram."</rdfs:comment>
+  </owl:ObjectProperty>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.2.1, Build 365)  http://protege.stanford.edu -->

@@ -1,0 +1,100 @@
+CFPs - Special Issue Journal of Computer Science and Technology (JCST)
+25 Aug 2005, submitted by "Daniel Rodriguez" (d.rodriguezgarcia at reading.ac.uk)
+
+Call for Papers  
+Advances in Software Metrics and Software Processes
+Special Issue of the Journal of Computer Science and Technology (JCST)
+journal - http://jcst.ict.ac.cn/ 
+
+http://www.personal.rdg.ac.uk/~sis01dr/jcst/
+
+
+Motivation
+
+The creation of large empirical databases of software projects as the ISBSG
+has stimulated research on estimation models, metrics and methods for
+measuring and improving processes and products. This can be viewed as a
+consequence on the maturing of the Software Engineering discipline, fostered
+also by the creation of the Guide to the Software Engineering Body of
+Knowledge (SWEBOK) that emphasizes measurement as the foundation for the
+discipline. 
+
+With the inception of such software repositories, many emergent issues
+software metrics-related to both products and processes - are subject to
+research efforts in Software Engineering. Examples include metrics for open
+source development, new metrics for agile methodologies, influence of team
+composition and productivity in effort spent, new methods for measuring
+functional size such as COSMIC FFP, data mining of software repositories,
+visualization techniques of product and process data, techniques for
+decision making such as Bayesian networks and system dynamics, etc.
+
+Objectives
+
+The main objective of this special issue would be that of providing a
+synthesis of recent advances and findings in Software Engineering
+measurement and process issues. Topics of interest include (but are not
+limited to) the following areas:
+
+* Software estimates, their validity and the techniques that produce models
+of better quality.
+* Requirements and Functional Size Measurement: techniques, validity and
+their application to new and emerging technologies 
+* New metrics and measurement techniques for new paradigms in Software
+Engineering such as aspect-oriented metrics, agile methodologies, etc.
+* Process and Product Improvement through measurement.
+* Decision-making in Software engineering including visualization techniques
+for project management
+* Data mining of software engineering repositories and Search Based Software
+Engineering 
+* IT Benchmarking. Standards for the collection, comparison and validation
+of metrics
+* Software metrics support tools
+
+
+Important dates
+
+Submission of extended abstracts(*) (2-3 pages): 15 September 2005. 
+Notification about appropriateness for the special issue: 30 September 2005 
+Submission deadline: 20 November 2005
+Notification of acceptance/rejection: 15 January 2006 
+Final papers due: 15 March 2006
+
+(*) NOTE: The submission of extended abstract is intended to provide
+feedback to authors about the appropriateness of their paper to the topics
+of the special issue, and it is not mandatory.
+
+
+Editor
+Daniel Rodriguez - The Univ. of Reading, UK
+Managing assistant
+Miguel-Angel Sicilia - The Univ. of Alcala, Spain
+
+Please, send your papers to msicilia@uah.es 
+and  d.rodriguezgarcia@reading.ac.uk
+
+http://www.personal.rdg.ac.uk/~sis01dr/jcst/
+
+
+
+
+============================================================
+To contribute to SEWORLD, send your submission to
+<seworld@cs.colorado.edu>.
+
+http://www.cs.colorado.edu/serl/seworld provides more
+information on SEWORLD as well as a complete archive of
+messages posted to the list.
+
+To subscribe to SEWORLD, send the following (as the body of
+a message) to <seworld-subscribe@cs.colorado.edu>:
+
+     subscribe seworld <desired e-mail address>
+     end
+
+To unsubscribe from SEWORLD, send the following (as the body
+of a message) to <seworld-unsubscribe@cs.colorado.edu>:
+
+     unsubscribe seworld <registered e-mail address>
+     end
+============================================================
+
