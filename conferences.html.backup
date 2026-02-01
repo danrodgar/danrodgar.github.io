@@ -7,40 +7,6 @@ xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" type="text/css" href="style/style104_left.css" /> 
 <link rel="stylesheet" type="text/css" href="style/colour2.css" />
-<style>
-.hidden {
-  display: none;
-}
-.expand-button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: 20px 0;
-  cursor: pointer;
-  border-radius: 4px;
-}
-.expand-button:hover {
-  background-color: #45a049;
-}
-</style>
-<script type="text/javascript">
-function toggleOldPublications() {
-  var oldPubs = document.getElementById('oldPublications');
-  var button = document.getElementById('expandButton');
-  if (oldPubs.className === 'hidden') {
-    oldPubs.className = '';
-    button.innerHTML = 'Hide Publications Before 2016';
-  } else {
-    oldPubs.className = 'hidden';
-    button.innerHTML = 'Show Publications Before 2016';
-  }
-}
-</script>
 </head>
 
 <body> 
@@ -67,7 +33,7 @@ function toggleOldPublications() {
 <h1>Conference Publications</h1>
 
 <h2>2025</h2>
-<ul>
+<ol>
 <li>
 Hidalgo, P., Mija&ccaron;, M., Dom&iacute;nguez, A., Rodriguez, D.,
 <a href="https://archive.ceciis.foi.hr/public/conferences/2025/Proceedings/S11/3.pdf" target="_blank">
@@ -86,19 +52,19 @@ Ransomware Threats in Manufacturing Industry: Patterns Based on Dark Web Tor Gro
 [DOI:<a href="https://doi.org/10.1109/DSN-W65791.2025.00042" target="_blank">10.1109/DSN-W65791.2025.00042</a>]
 [<a href="./c/2025deMarcosDRD_DSNW.bib" target="_blank">Bib</a>]
 </li>
-</ul>
+</ol>
 
 <h2>2024</h2>
-<ul>
+<ol>
 <li>
 Prado S&aacute;nchez, V.P., Dom&iacute;nguez D&iacute;az, A., Rodr&iacute;guez Garc&iacute;a, D., Mart&iacute;nez Herraiz, J.J., de Marcos Ortega, L.,<a href="./c/2024PradoSDM_deMarcos_CECIIS.pdf" target="_blank"> How can ChatGPT help humans in dark web content classification? Assessing GPT models reliability and effects of explanations on human decisions</a>, Proceedings of the 35th Central European Conference on Information and Intelligent Systems (CECIIS 2024), 18-20 September 2024, Varaždin, Croatia, pp. 395-402. Publisher: Faculty of Organization and Informatics, University of Zagreb. ISSN: 1848-2295, 1847-2001.<br />
 [<a href="./c/2024PradoSDM_deMarcos_CECIIS.bib" target="_blank">Bib</a>]
 [<a href="./c/2024PradoSDM_deMarcos_CECIIS_Slides.pdf" target="_blank">Slides</a>]
 </li>
-</ul>
+</ol>
 
 <h2>2023</h2>
-<ul>
+<ol>
 <li>
 San Juan Llano, A., Nguyen, T.-M.-T., Rodriguez, D., Chardy, M.,
 <a href="https://univ-rennes.hal.science/SPRES/hal-04256875v1" target="_blank">
@@ -107,29 +73,29 @@ POEMA: a Personal Cloud for Inclusive Education</a>, Proceedings of the 34th Cen
 [<a href="./c/2023SanJuanLlanoCECIIS23.pdf" target="_blank">PDF</a>]
 [<a href="./c/2023SanJuanLlanoCECIIS23.bib" target="_blank">Bib</a>]
 </li>
-</ul>
+</ol>
 
 <h2>2022</h2>
-<ul>
+<ol>
 <li>
 L. de-Marcos, J.M. Guti&eacute;rrez-Mart&iacute;nez, A. Dom&iacute;nguez-D&iacute;az, S. Caro-&Aacute;, D. Rodr&iacute;guez, 
 <a href="./c/2022deMarcos_CECIIS22.pdf" target="_blank"> Evaluating the UX of a Microservice Web App: CyberRanges in the uDevOps Project</a>, Proceedings of the 33rd Central European Conference on Information and Intelligent Systems (CECIIS 2022), 21-23 September 2022, Dubrovnik, Croatia. pp. 471-478. Publisher: Faculty of Organization and Informatics (FOI), University of Zagreb. ISSN: 1848-2295, 1847-2001.<br />
 [<a href="./c/2022deMarcos_CECIIS22.pdf" target="_blank">Bib</a>]
 [<a href="./c/2022deMarcos_CECIIS22_Slides.pdf" target="_blank">Slides</a>]
 </li>
-</ul>
+</ol>
 
 <h2>2019</h2>
-<ul>
+<ol>
 <li>
 Rodriguez, D., Dolado J., Tuya, J., Pfahl, D., <a href="./c/2019RodriguezDTP_MadSESE.pdf" target="_blank">Software defect prediction with zero-inflated Poisson models</a>, In 5th Madrilenian Seminar on Empirical Software Engineering (MadSESE'19), 5 June 2019, Madrid, Spain,
 [<a href="./c/2019RodriguezDTP_MadSESE.bib" target="_blank">Bib</a>]
 [<a href="./c/2019RodriguezDTP_MadSESE_Slides.pdf" target="_blank">Slides</a>]
 </li>
-</ul>
+</ol>
 
 <h2>2017</h2>
-<ul>
+<ol>
 <li>
 Moreno, J., Gonzalez, I., Rodriguez, D., <a href="./c/MorenoGR_SMC-IT2017.pdf" target="_blank">Using Simulation and the NSGA-II Evolutionary Multi-Objective Algorithm in the Design of a Compact Dual-band Equatorial Helix Antenna</a>, In Proceedings of 6th International Conference on Space Mission Challenges for Information Technology (SMC-IT 2017),
 27-29 September 2017, Alcala de Henares, Madrid, Spain, DOI: <a href="https://doi.org/10.1109/SMC-IT.2017.17" target="_blank">10.1109/SMC-IT.2017.17</a>
@@ -157,10 +123,10 @@ DOI: <a href="http://dx.doi.org/10.1007/978-3-319-60042-0_18" target="_blank">10
 Edgard Costa Oliveira, Edison Ishikawa, Lucas Hiroshi Horinouchi, Thabata Hellen Granja, Marcos V. de A. Nunes, Daniel Rodriguez, Rafael Batista Menegassi, Luciano Gois, and George Ghinea, <a href="./c/OliveiraIHGNRMG17_ICSC2017.pdf" target="_blank">Ontology-Based CMS News Authoring Environment</a>, In Proceedings of the 11th IEEE International Conference on Semantic Computing (ICSC2017), Jan 30-Feb 1, 2017. San Diego, California, USA, pp. 264-265. DOI: <a href="https://doi.org/10.1109/ICSC.2017.91" target="_blank">10.1109/ICSC.2017.91</a>
 [<a href="./c/OliveiraIHGNRMG17_ICSC2017.bib" target="_blank">Bib</a>]
 </li>
-</ul>
+</ol>
 
 <h2>2016</h2>
-<ul>
+<ol>
 <li>
 Edgard Costa Oliveira, Edison Ishikawa, Lucas Hiroshi Horinouchi, Thabata Hellen Granja, Marcos V. de A. Nunes, Daniel Rodriguez, Rafael Batista Menegassi, Luciano Gois, and George Ghinea, <a href="./c/OliveiraMEDES16.pdf" target="_blank">Designing an ontology-based Zika virus news authoring environment for the semantic web.</a> In Proceedings of the 8th International Conference on Management of Digital EcoSystems (MEDES), 2-4 November 2016, Hendaye, France, pp. 197-203. DOI: <a href="https://doi.org/10.1145/3012071.3012093" target="_blank">10.1145/3012071.3012093</a>
 [<a href="./c/OliveiraMEDES16.bib" target="_blank">Bib</a>]
@@ -170,24 +136,20 @@ Edgard Costa Oliveira, Edison Ishikawa, Lucas Hiroshi Horinouchi, Thabata Hellen
 href="./c/VillaverdeRBRIDEAL16.pdf" target="_blank">Triaxial Accelerometer Located on the Wrist for Elderly People's Fall Detection</a>, 17th International Conference on Intelligent Data Engineering and Automated Learning (IDEAL 2016), Yangzhou, China, October 12-14, 2016, pp. 523-532, DOI: <a href="http://dx.doi.org/10.1007/978-3-319-46257-8_56" 
 target="_blank">10.1007/978-3-319-46257-8_56</a>
 [<a href="./c/VillaverdeRBRIDEAL16.bib" target="_blank">Bib</a>]</li>
-</ul>
-
-<button id="expandButton" class="expand-button" onclick="toggleOldPublications()">Show Publications Before 2016</button>
-
-<div id="oldPublications" class="hidden">
+</ol>
 
 <h2>2015</h2>
-<ul>
+<ol>
 <li>Rodriguez, D., Dolado, J., Tuya, J., <a
 href="./c/RDT_ATest15.pdf" target="_blank">Bayesian Concepts in Software Testing: An Initial Review</a>,  6th International Workshop on Automating Test Case Design, Selection and Evaluation (A-TEST 2015), Bergamo, Italy, Aug 30-31, 2015. DOI:<a href="http://dx.doi.org/10.1145/2804322.2804329" 
 target="_blank">10.1145/2804322.2804329</a>
 [<a href=./c/RDT_ATest15Slides.pdf target="_blank">Slides</a>]
 [<a href="./c/RDT_ATest15.bib" target="_blank">Bib</a>]
 </li>
-</ul>
+</ol>
 
 <h2>2014</h2>
-<ul>
+<ol>
 <li>Rodriguez, D., Herraiz, I., Harrison, R., Dolado, J., Riquelme, J.C., <a
 href="./c/RHHDR_EASE14.pdf" target="_blank">Comparison of Techniques for Dealing with Imbalance in Software 
 Defect Prediction</a>, International Conference on Evaluation and Assessment in Software Engineering 
@@ -196,10 +158,10 @@ target="_blank">10.1145/2601248.2601294</a>
 [<a href=./c/RHHDR_EASE14_Slides.pdf target="_blank">Slides</a>]
 [<a href="./c/2014RodriguezHHDR_EASE14.bib" target="_blank">Bib</a>]
 </li>
-</ul>
+</ol>
 
 <h2>2012</h2>
-<ul>
+<ol>
 <li>Herraiz, I., Rodriguez, D., Harrison, R., <a
 href="./c/HRH_WETSoM12.pdf" target="_blank">On the Statistical Distribution of
 Object-Oriented System Properties</a>, In 3rd International Workshop on Emerging
@@ -217,10 +179,10 @@ DOI:<a href="http://dx.doi.org/10.1109/WETSoM.2012.6226994" target="_blank">10.1
  [<a href="./c/RHH_RAISE12_Slides.pdf" target="_blank">Slides</a>]
  [<a href="./c/RHH_RAISE12_Repos.html" target="_blank">List of Repositories</a>]
  </li>
-</ul>
+</ol>
 
 <h2>2011</h2>
-<ul>
+<ol>
 <li>Rodriguez, D., Ruiz, R., Riquelme, J.C., Harrison, R., <a
  href="./c/RodriguezEtAl_SSBSE11.pdf" target="_blank">Subgroup Discovery for
  Defect Prediction</a>, 3rd International Symposium on Search Based Software
@@ -246,10 +208,10 @@ href="./c/RomayEtAl_ICSEA11.pdf" target="_blank">A Systematic Review of
 Self-adaptation in Service-oriented Architectures</a>, The Sixth International
 Conference on Software Engineering Advances (ICSEA 2011), October 23-29, 2011,
 Barcelona, Spain.</li>
-</ul>
+</ol>
 
 <h2>2009</h2>
-<ul>
+<ol>
 <li>Rodriguez, D., Riquelme, J.C., Ruiz, R., Aguilar-Ruiz, J.S.,
 <a href="./c/RodriguezEtAl_SSBSE09.pdf" target="_blank">Searching for Rules to
 find Defective Modules in Unbalanced Data Sets</a>, 1st International Symposium
@@ -309,10 +271,10 @@ href="./c/2009SiciliaSGR_INCoS.pdf" target="_blank">Exploring Structural Prestig
 DOI: <a href="https://doi.org/10.1109/INCOS.2009.12" target="_blank">10.1109/INCOS.2009.12</a>
 [<a href="./c/2009SiciliaSGR_INCoS.bib" target="_blank">Bib</a>]
 </li>
-</ul>
+</ol>
 
 <h2>2008</h2>
-<ul>
+<ol>
 <li>Korfiatis, N., Rodriguez, D., Sicilia, M.A. <a
 href="./c/2008KorfiatisRS_WKSK.pdf" target="_blank">The Impact of Readability on the
 Usefulness of Online Product Reviews: A Case Study on an Online Bookstore</a>,
@@ -335,10 +297,10 @@ href="./c/Sanchez_EtAl_ICL2008.pdf" target="_blank">On Integrating Semantic
 Learning Object Repositories in the Open Knowledge Initiative (OKI)
 Architecture</a>, Interactive Conference Learning (ICL'2008), September 24-26,
 2008 Villach, Austria.</li>
-</ul>
+</ol>
 
 <h2>2007</h2>
-<ul>
+<ol>
 <li>Cuadrado, J.J., Rodriguez, D., Machado, F., Abran, A.,
 &quot;<a href="./c/CuadradoEtAl_PROFES07.pdf" target="_blank">Convertibility
 between IFPUG and COSMIC Functional Size Measurements</a>&quot; in Proceedings
@@ -382,10 +344,10 @@ Improving Measurement Plans: A BMP application in Spain</a>, in
 <i>Software Measurement European Forum (<a href="http://www.dpo.it/smef2007/"
 target="_blank">SMEF 2007</a>)</i>, Rome, Italy, May 2006, pp. 65-78. ISBN:
 9-788870-909425</li>
-</ul>
+</ol>
 
 <h2>2006</h2>
-<ul>
+<ol>
 <li>Rodriguez, D., Cuadrado, J.J., Aguilar-Ruiz, J., <a
 href="./c/2006RodriguezIWSM.pdf" target="_blank">Using genetic algorithms to
 generate estimation models</a>, in <i>Proceedings of the 16th
@@ -434,10 +396,10 @@ DOI: <a href="https://doi.org/10.1007/11758549_106" target="_blank">10.1007/1175
 [<a href="./c/2006Rodriguez_ICCS.bib"
 target="_blank">Bib</a>]
 </li>
-</ul>
+</ol>
 
 <h2>2005</h2>
-<ul>
+<ol>
 <li>Ruiz, M., Cuadrado, J.J., Sicilia, M.A., Rodriguez,
 D., <a href="./c/RuizEtAl.IWSM05.pdf" target="_blank">Using simulation to
 determine the sensibility of error sources for software effort estimation
@@ -469,10 +431,10 @@ International conference on Information Technology Interfaces (ITI'05)</i>.
 Dubrovnik, Croatia, June 2005. DOI: <a href="http://dx.doi.org/10.1109/ITI.2005.1491119" target="_blank">10.1109/ITI.2005.1491119</a>, ISBN: 953-7138-02-X
 [<a href="./c/2005GarreCSCR_ITI05.bib" target="_blank">Bib</a>]
 </li>
-</ul>
+</ol>
 
 <h2>2004</h2>
-<ul>
+<ol>
 <li>Cuadrado, J.J., Dolado, J., Rodriguez, D. Sicilia, M.A.,
 The second level input variables for software cost estimation
 models, In Proceedings of the 14th International workshop on software measurement and the DASMA
@@ -496,17 +458,17 @@ Experiment</a>, in Proceedings of the <i>International Conference on Product Foc
 Process Improvement (PROFES) Proceedings, Lecture Notes In Computer Science
 (LNCS)</i>, 3009, 287-301, April 2004. Springer. DOI: <a href="https://doi.org/10.1007/978-3-540-24659-6_21" target="_blank">10.1007/978-3-540-24659-6_21</a> 
 [<a href="./c/2004RodriguezSP_PROFES.bib" target="_blank">Bib</a>]</li>
-</ul>
+</ol>
 
 <h2>2003</h2>
-<ul>
+<ol>
 <li>Rodriguez, D., Dolado, J., Satpathy, M., <a href="./c/RodriguezEtAl_WSESE03.pdf" target="_blank">Bayesian Networks and Classifiers in Project Management</a>, in <i>Proceedings of 2nd
 Workshop in Workshop Series on Empirical Software Engineering</i>, Roman
 Castles, Italy, September 2003. ISBN 3-8167-6418-5</li>
-</ul>
+</ol>
 
 <h2>2002</h2>
-<ul>
+<ol>
   <li>Dolado, J.J., Tuya J. and Rodr&iacute;guez, D., <a href="./c/2002DoladoSV02.pdf" target="_blank">Steps in the Ontological Modelling of the Software Verification and Validation Activities</a>,in <i>1st International Workshop on System Testing and Validation (SV'2002) co-located with ICSEA</i>, Paris, France, 2002 [<a href="./c/2002DoladoSV02.bib" target="_blank">Bib</a>]</li>
 
   <li>Rodriguez, D., Harrison, R., Satpathy, M., &quot;<a
@@ -554,10 +516,10 @@ Rules through System Dynamics and Evolutionary Computation</a>,
 DOI: <a href="https://doi.org/10.1007/3-540-36209-6_50" target="_blank">10.1007/3-540-36209-6_50</a> 
 [<a href="./c/2002Aguilar_PROFES.bib" target="_blank">Bib</a>]
 </li>
-</ul>
+</ol>
 
 <h2>2001</h2>
-<ul>
+<ol>
 <li>Rodr&iacute;guez, D., Harrison, D., Satpathy M., Dolado, J.J.,
 &quot;<a href="./c/RodriguezEtAl_IWSM01.pdf" target="_blank">Tool Support for
 the Typed Generic Quality Model</a>&quot;, in Current Trends in Software
@@ -571,38 +533,38 @@ Measurement), R. Dumke and A. Abran, Eds. Montreal, Canada: Shaker Verlag,
   &Aacute;lvarez, M.A., &quot;Integration of Information in a Training Environment
   for Software Project Management,&quot; In <i>Software Quality Management
   (SQM)</i>, Loughborough, UK, 2001.</li>
-</ul>
+</ol>
 
 <h2>2000</h2>
-<ul>
+<ol>
   <li>D. Rodr&iacute;guez and R. Harrison, &quot;<a
   href="./c/Rodriguez_Harrison_ICSSEA2000.pdf" target="_blank">Practitioners Views
   on Web Development: An Industrial Survey by Semi-Structured
   Interviews</a>&quot;, in <i>13th International Conference Software and Systems
   Engineering and their Applications (ICSSEA)</i>, Paris, France, 2000.</li> 
-</ul>
+</ol>
 
 <h1>Spanish Conferences</h1>
 
 <h2>2017</h2>
-<ul>
+<ol>
 <li>M. Mart&iacutenez-Ballesteros, J.C. Riquelme, R. Ruiz, D. Rodriguez, <a
 href="./c/MartinezRRR_JISBD17.pdf"  target="_blank">Detecci&oacute;n Predicci&oacute;n de m&oacute;dulos defectuosos como un
 problema de optimizaci&oacute;n multiobjetivo.</a> Jornadas en Ingenier&iacute;a del Software
 y Bases de Datos (JISBD'17), La Laguna, Tenerife, Espa&ntilde;a, 19-21 de julio 2017. 
 </li>
-</ul>
+</ol>
 
 <h2>2016</h2>
-<ul>
+<ol>
 <li>Collado-Villaverde, A., R-Moreno, M.D.; Barrero, D.F. and Rodriguez, D. <a
 href="http://congresocedi.es/actas/downloads/CAEPIA.pdf"  target="_blank">Detecci&oacute;n de ca&iacute;das mediante un aceleròmetro de tres ejes ubicado en la muñeca en personas de tercera edad.</a> Actas de la XVII Conferencia de la Asociaci&oacute;n Espa&ntilde;ola para la Inteligencia Artificial, pp. 29-38, Ediciones Universidad Salamanca. Septiembre 13-16, 2016. 
 [<a href="./cs/ColladoEtAlCAEPIA16.bib" target="_blank">Bib</a>]
 </li>
-</ul>
+</ol>
 
 <h2>2011</h2>
-<ul>
+<ol>
 <li>Rodr&iacute;guez, D., Ruiz, R., Riquelme, J.C., Aguilar-Ruiz, J.S., <a
 href="./cs/RodriguezEtAl_JISBD11_SD.pdf" target="_blank">Descubrimiento de
 Subgrupos para predecir m&oacute;dulos defectuosos</a>, Jornadas en Ingenier&iacute;a del Software
@@ -626,38 +588,38 @@ href="./cs/BertolEtAl_JISBD11.pdf" target="_blank">Applying Rules to an
 Ontology for Project Management</a>,
 Jornadas en Ingenier&iacute;a del Software y Bases de Datos, A Coru&ntilde;a,
 Espa&ntilde;a, Septiembre 2011.</li>
-</ul>
+</ol>
 
 <h2>2010</h2>
-<ul>
+<ol>
 <li>Reyes, E., Rodr&iacute;guez, D., Dolado, J.J., <a
 href="./cs/adis-10-reyes-xbrl.pdf" target="_blank">Using the XBRL GL for
 supporting Organizational Processes</a>, Presentado en el <a
 href="http://www.cc.uah.es/drg/adis2010">Taller de Apoyo a la Decisi&oacute;n en
 Ingenier&iacute;a del Software (ADIS)</a>,  Jornadas en Ingenier&iacute;a del
 Software y Bases de Datos, Valencia, Espa&ntilde;a, Septiembre 2010.</li>
-</ul>
+</ol>
 
 <h2>2009</h2>
-<ul>
+<ol>
 <li>Moreno, J., Rodriguez, D., Sicilia, M.A., Riquelme, J.C. y Ruiz R., <a
 href="http://www.cc.uah.es/drg/adis2009/articles/adis-09-Moreno-ISMOTE.pdf" target="_blank">SMOTE-I: mejora del algoritmo SMOTE para balanceo de clases minoritarias</a>, Presentado en el <a
 href="http://www.cc.uah.es/drg/adis2009">Taller de Apoyo a la Decisi&oacute;n en
 Ingenier&iacute;a del Software (ADIS)</a>,  Jornadas en Ingenier&iacute;a del
 Software y Bases de Datos, Donostia, 8 Julio 2009.</li>
-</ul>
+</ol>
 
 <h2>2008</h2>
-<ul>
+<ol>
 <li>Riquelme, J.C.,Ruiz, R., Rodriguez, D. and Moreno, J. , <a
 href="http://www.cc.uah.es/drg/adis2008/papers/adis-08-Riqueme-balancing.pdf" target="_blank">Finding Defective Modules from Highly Unbalanced Datasets</a>, Presentado en el <a
 href="http://www.cc.uah.es/drg/adis2008">Taller de Apoyo a la Decisi&oacute;n en
 Ingenier&iacute;a del Software (ADIS)</a>,  Jornadas en Ingenier&iacute;a del
 Software y Bases de Datos, Gij&oacute;n, Octubre 2008.</li>
-</ul>
+</ol>
 
 <h2>2005</h2>
-<ul>
+<ol>
 <li>Rodr&iacute;guez, D., Rejas, R., Cuadrado-Gallego
 J.J., Dolado, J. &quot;Using Genetic Algorithms to Generate Estimation
 Models&quot;, Presentado en el <a
@@ -674,30 +636,30 @@ movimientos corporativos m&aacute;s relevantes</a>&#034;, Presentado en el I
 Congreso Iberoamericano de Computaci&oacute;n Ubicua, Alcal&aacute; de Henares,
 Madrid. <i>CEUR Workshop Proceedings</i>, Vol. 132.<br />ISSN:
 1613-0073, Mayo 2005.</li> 
-</ul>
+</ol>
 
 <h2>2004</h2>
-<ul>
+<ol>
 <li>Cuadrado-Gallego, J.J., Dolado, J., Rodr&iacute;guez, D., Sicilia,
 M.A., &quot;<a href="./cs/CuadradoEtAl.AvanGestProy.pdf"
 target="_blank">Buscando la piedra Rosetta de los puntos de funci&oacute;n</a>",
 en <i>Actas, I Simposio en Avances en Gesti&oacute;n de Proyectos y Calidad del
 Software</i>, Salamanca, Espa&ntilde;a, Octubre 2004, 188-195. ISBN:
 84-688-7873-1.</li>
-</ul>
+</ol>
 
 <h2>2003</h2>
-<ul>
+<ol>
 <li>Rodr&iacute;guez, D., Satpathy, M., Dolado, J., &quot;Gesti&oacute;n
 de proyectos y redes bayesianas&quot;, Presentado en el <a
 href="http://www.sc.ehu.es/jiwdocoj/remis/cfpadis2003.htm">Taller Apoyo a la
 Decisi&oacute;n en Ingenier&iacute;a del Software (ADIS)</a>, IIX Jornadas en
 Ingenier&iacute;a del Software y Bases de Datos, Alicante, Espa&ntilde;a, Nov.
 2003</li>
-</ul>
+</ol>
 
 <h2>2001</h2>
-<ul>
+<ol>
   <li>Ramos, J. Riquelme, F. Aguilar, J.F., M. Toro, J. Tuya, P.
   Fern&aacute;ndez, M. A. Prieto, M. Ruiz-Carreira, D. Rodr&iacute;guez, M.
   Satpathy, R. Harrison, A. Ruiz de Infante, R. Matilla and M. A. &Aacute;lvarez,
@@ -705,8 +667,6 @@ Ingenier&iacute;a del Software y Bases de Datos, Alicante, Espa&ntilde;a, Nov.
   Informaci&oacute;n en un Entorno de Entrenamiento para la Gesti&oacute;n de
   Proyectos Software</a>&quot;, VI Jornadas sobre Innovaci&oacute;n y Calidad del
   Software (JICS), Madrid, Spain, 2001.</li> 
-</ul>
-
-</div>
+</ol>
 
 </div> </div> </div> </body> </html>

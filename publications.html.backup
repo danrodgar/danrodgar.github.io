@@ -1,0 +1,441 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> <html
+xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head> 
+<title>Daniel Rodriguez - Publications</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" href="style/style104_left.css" /> 
+<link rel="stylesheet" type="text/css" href="style/colour2.css" />
+</head>
+
+<body> 
+<div id="main"> 
+<div id="content"> 
+<div id="column1"> 
+<div id="menu"> 
+<h1 class="ayuda">Menu</h1> 
+<ul> 
+
+					<li><a href="index.html">Contact Details</a></li>
+					<li><a href="biography.html">Short Bio</a></li>
+					<li><a id="selected" href="publications.html">Journal/Book Publications</a></li>
+					<li><a href="conferences.html">Conference Publications</a></li>
+					<li><a href="teaching.html">Teaching</a></li>
+					<li><a href="software.html">Software</a></li>
+</ul> 
+</div> </div>
+		
+		 <div id="column2">
+		 <div id="logo"> 
+<h1>Daniel Rodriguez</h1>
+<h2>Computer Science Department, University of Alcal&aacute;, Madrid, Spain</h2>
+</div>
+
+ <h1>Journals</h1> 
+ 			<ol>
+		
+			<li>
+			Dom&iacute;nguez-D&iacute;az, A., de-Marcos, L., Prado-S&aacute;nchez, V.-P., Rodriguez, D., Mart&iacute;nez-Herr&aacute;iz, J.-J.,
+			<a href="./jif/2026Dominguez_IPM.pdf" target="_blank">
+				Classifying illicit dark web content through zero-shot prompting: An empirical study with GPT models</a>, 
+			<i>Information Processing &amp; Management</i>, 63(2, Part B), 104476, 2026,
+			DOI: <a href="https://doi.org/10.1016/j.ipm.2025.104476" target="_blank">10.1016/j.ipm.2025.104476</a>
+			[<a href="./jif/2026Dominguez_IPM.bib" target="_blank">Bib</a>]
+			</li>
+		
+			<li>
+			Zulfiqar, M., Rasheed, M.B., Rodriguez, D., R-Moreno, M.D.,
+			<a href="./jif/2025Zulfiqar_SEGAN.pdf" target="_blank">
+				Blockchain-based energy trading with multi-factor trust: Ensuring fairness and security in peer-to-peer energy trading with blockchain technology
+			</a>,  <i>Sustainable Energy, Grids and Networks</i>, 43, 101796, 2025,
+			DOI: <a href="https://doi.org/10.1016/j.segan.2025.101796" target="_blank">10.1016/j.segan.2025.101796</a>
+			[<a href="./jif/2025Zulfiqar_SEGAN.bib" target="_blank">Bib</a>]
+			</li>
+	 
+			<li>
+			Tammisto, M.-A., Shah, F.A., Rodriguez, D., Pfahl, D.,
+			<a href="./jif/2025TammistoSRP_ExpertSystems.pdf" target="_blank">
+				The Challenge of Generating and Evolving Real-Life Like Synthetic Test Data Without Accessing Real-World Raw Data - A Systematic Review
+			</a>, <i>Expert Systems</i>, 42(12), Nov, 2025,
+			DOI: <a href="https://doi.org/10.1111/exsy.70164" target="_blank">10.1111/exsy.70164</a>
+			[<a href="./jif/2025TammistoSRP_ExpertSystems.bib" target="_blank">Bib</a>]
+			[<a href="./2025TammistoSRP_ExpertSystems_Data.zip" target="_blank">Data</a>]
+			</li>
+
+			<li>
+			Rasheed, M.B., Rodriguez, D., R-Moreno, M.D.,
+			<a href="./jif/2025Rasheed_JES.pdf" target="_blank">
+				An optimization cost strategy for storage-enabled hydrogen flow network using Monte Carlo simulation
+			</a>, <i>Journal of Energy Storage</i>, 132, 117840, 2025,
+			DOI: <a href="https://doi.org/10.1016/j.est.2025.117840" target="_blank">10.1016/j.est.2025.117840</a>
+			[<a href="./jif/2025Rasheed_JES.bib" target="_blank">Bib</a>]
+			</li>
+
+			<li>
+			Hidalgo, P., Rodriguez, D.,
+			<a href="./jif/2025HidalgoR_KBS.pdf" target="_blank">
+				An explainable multi-task similarity measure: Integrating accumulated local effects and weighted Fr&eacute;chet distance
+			</a>, <i>Knowledge-Based Systems</i>, 329, 114384, 2025,
+			DOI: <a href="https://doi.org/10.1016/j.knosys.2025.114384" target="_blank">10.1016/j.knosys.2025.114384</a>
+			[<a href="./jif/2025HidalgoR_KBS.bib" target="_blank">Bib</a>]
+			</li>
+			
+			<li>
+			Eberlein, J., Rodriguez, D., Harrison, R.,
+			<a href="./jif/2025EberleinRH_ESE.pdf" target="_blank">The effect of data complexity on classifier performance
+			</a>, <i>Empirical Software Engineering</i>, 30, October, 2025,
+			DOI:<a href="https://doi.org/10.1007/s10664-024-10554-5" target="_blank">10.1007/s10664-024-10554-5</a>
+			[<a href="./jif/2025EberleinRH_ESE.bib" target="_blank">Bib</a>]
+			[<a href="https://github.com/JonasEberlein98/ComplexitySoftwareDefectsDatasets" target="_blank">Replication Package</a>]
+			</li>
+
+			<li>Giamattei, L., Guerriero, A., Pietrantuono, R., Russo, S., Malavolta, I., Islam, T., Dînga, M., Koziolek, A., Singh, S., Armbruster, M., Gutierrez-Martinez, J.M., Caro-Alvaro, S., Rodriguez, D., Weber, S., Henss, J., Fernandez Vogelin, E., Simon Panojo, F., <a href="./jif/2024Giamattei_JSS.pdf" target="_blank">Monitoring tools for DevOps and microservices: A systematic grey literature review</a>, <i>Journal of Systems and Software</i>, Volume 208, 111906, 2024, 
+			DOI: <a href="https://doi.org/10.1016/j.jss.2023.111906"  target="_blank">10.1016/j.jss.2023.111906</a>
+			[<a href="./jif/Giamattei24_JSS.bib" target="_blank">Bib</a>]
+			</li>	
+
+			<li>Moreno, J., Rodriguez, D., Nebro, A.J., Lozano, J.A., <a href="./jif/2020MorenoRNL_IEEE_CYB.pdf" target="_blank">Merge Non-Dominated Sorting Algorithm for Many-Objective Optimization</a>, <i>IEEE Transactions on Cybernetics</i>, vol. 51, no. 12, pp. 6154-6164, Dec. 2021, 
+			DOI: <a href="https://doi.org/10.1109/TCYB.2020.2968301"  target="_blank">10.1109/10.1109/TCYB.2020.2968301</a>
+			[<a href="./jif/2020MorenoRNL_IEEE_CYB.bib" target="_blank">Bib</a>]
+			[<a href="https://github.com/jMetal/jMetal" target="_blank">Source code (jMetal)</a>]
+			[<a href="https://arxiv.org/abs/1809.06106" target="_blank">Arxiv</a>]
+			</li>
+
+			<li>Moreno, J., Gonzalez, D., Rodriguez, D., <a href="./jif/2019MorenoGR_IEEE_MAES.pdf" target="_blank">
+				Design of a TTC Antenna using Simulation and Multi-objective Evolutionary Algorithms</a>, <i>IEEE Aerospace &amp; Electronics Magazine</i>, 34(7), 18-31, 2019, 
+			DOI: <a href="https://doi.org/10.1109/MAES.2019.2916535"  target="_blank">10.1109/MAES.2019.2916535</a>
+			[<a href="./jif/2019MorenoGR_IEEE_MAES.bib" target="_blank">Bib</a>]</li>
+
+
+			<li>Palma-Mendoza, J.R., de-Marcos, L., Rodriguez, D., Alonso-Betanzos, A., <a href="./jif/2019PalmaMRA_IS.pdf" target="_blank">
+				Distributed Correlation-Based Feature Selection in Spark</a>, <i>Information Sciences</i>, 496, 287-299, Sept 2019, 
+			DOI: <a href="https://doi.org/10.1016/j.ins.2018.10.052"  target="_blank">10.1016/j.ins.2018.10.052</a>
+			[<a href="./jif/2019PalmaMRA_IS.bib" target="_blank">Bib</a>]
+			[<a href="https://github.com/rauljosepalma/DiCFS" target="_blank">GitHub source code</a>]
+			</li>
+
+
+			<li>Yago, H., Clemente, J., Rodriguez, D., 
+			<a href="./jif/2018YagoCR_BIT.pdf" target="_blank">Competence-based recommender systems: a systematic literature review</a>, 
+			<i>Behaviour &amp; Information Technology</i>, Vol. 37, Issue 10-11, pp. 958-977, 2018  
+			DOI: <a href="https://doi.org/10.1080/0144929X.2018.1496276" target="_blank">10.1080/0144929X.2018.1496276</a>
+			[<a href="./jif/2018YagoCR_BIT.bib" target="_blank">Bib</a>]
+			</li>
+
+			<li>Ruiz, M., Moreno, J. Dorronsoro, B., Rodriguez, D., 
+			<a href="./jif/2018RuizMDR_DSS.pdf" target="_blank">Using Simulation-based Optimization in the Context of IT Service Management Change Process</a>, 
+			<i>Decision Support Systems</i>, Vol. 112, August 2018, 35-47,
+			DOI: <a href="https://doi.org/10.1016/j.dss.2018.06.004" target="_blank">10.1016/j.dss.2018.06.004</a>
+			[<a href="./jif/2018RuizMDR_DSS.bib" target="_blank">Bib</a>]
+			</li>
+
+			<li>Ramo, R., Garc&iacute;a, M., Rodriguez, D, Chuvieco, E., 
+			<a href="./jif/2018RamoGRC_JAG.pdf" target="_blank">A data mining approach for global burned area mapping
+			</a>, <i>International Journal of Applied Earth Observation and Geoinformation</i>, Vol. 73, pp. 39-51, Dec 2018, 
+			DOI: <a href="https://doi.org/10.1016/j.jag.2018.05.027" target="_blank">10.1016/j.jag.2018.05.027</a>
+			[<a href="./jif/2018RamoGRC_JAG.bib" target="_blank">Bib</a>]
+			</li> 
+
+			<li>Hern&aacute;ndez-Gonz&aacute;lez, J., Rodriguez, D., Inza, I., Harrison, R., Lozano, J.A., 
+			<a href="./jif/2018HernandezRIHL_DataInBrief.pdf" target="_blank">
+			Two datasets of defect reports labeled by a crowd of annotators of unknown reliability</a>,
+			<i>Data in Brief</i>, Vol. 18, pp. 840-845, June 2018.
+			DOI: <a href="https://doi.org/10.1016/j.dib.2018.03.109" target="_blank">10.1016/j.asoc.2017.10.047</a>
+			[<a href="./jif/2018HernandezRIHL_DataInBrief.bib" target="_blank">Bib</a>]
+			[<a href="./jif/2018HernandezRIHL_DataInBrief.zip" target="_blank">Datasets</a>]
+			</li> 
+
+			<li>Palma-Mendoza, R.J., Rodriguez, D., de-Marcos, L. 
+			<a href="./jif/2018PalmaRdM-KAIS-DistributedRF.pdf" target="_blank">
+			Distributed ReliefF based Feature Selection in Spark</a>,
+			<i>Knowledge and Information Systems</i>, 57, pp. 1–20, 2018.
+			DOI: <a href="https://doi.org/10.1007/s10115-017-1145-y" target="_blank">10.1007/s10115-017-1145-y</a>
+			[<a href="./jif/2018PalmaRdM-KAIS-DistributedRF.bib" target="_blank">Bib</a>]
+			[<a href="https://github.com/rauljosepalma/DiReliefF" target="_blank">GitHub source code</a>]
+			</li> 
+
+			<li>Yago, H., Clemente, J., Rodriguez, D., Fernandez-de-Cordoba, P., 
+			<a href="./jif/2018YagoCRF-DATAK.pdf" target="_blank">
+			ON-SMMILE: Ontology Network-based Student Model for MultIple Learning Environments</a>,
+			<i>Data &amp; Knowledge Engineering</i>, Vol. 115, May 2018, pp. 48-67.
+			DOI: <a href="https://doi.org/10.1016/j.datak.2018.02.002" target="_blank">10.1016/j.datak.2018.02.002</a>
+			[<a href="./jif/2018YagoCRF-DATAK.bib" target="_blank">Bib</a>]
+			</li> 
+
+			<li>Hern&aacute;ndez-Gonz&aacute;lez, J., Rodriguez, D., Inza, I., Harrison, R., Lozano, J.A.,  
+			<a href="./jif/2018HernandezRIHL_ASOC.pdf" target="_blank">
+			Learning to classify software defects from crowds: a novel approach</a>,
+			<i>Applied Soft Computing</i>, Vol. 62, pp. 579-591, January 2018.
+			DOI: <a href="https://doi.org/10.1016/j.asoc.2017.10.047" target="_blank">10.1016/j.asoc.2017.10.047</a>
+			[<a href="./jif/2018HernandezRIHL_ASOC.bib" target="_blank">Bib</a>]
+			[<a href="http://www.sc.ehu.es/ccwbayes/members/jeronimo/odc/" target="_blank">Additional Material</a>]
+			</li> 
+
+			<li>Pietrantuono, R., Potena, P., Pecchia, A., Rodriguez, D., Russo, S., Fernandez, L.,
+			<a href="./jif/2018PietrantuonoPPRRF_TEVC.pdf" target="_blank">
+			Multi-Objective Testing Resource Allocation under Uncertainty</a>, 
+			<i>IEEE Transactions on Evolutionary Computation</i>, Vol. 22(3), 347-362, June 2018
+			DOI: <a href="http://dx.doi.org/10.1109/TEVC.2017.2691060" target="_blank">10.1109/TEVC.2017.2691060</a>
+			[<a href="./jif/2018PietrantuonoPPRRF_TEVC.bib" target="_blank">Bib</a>]
+			</li> 
+
+		        <li>Dolado, J.J., Rodriguez, D., Harman, M., Langdon, W.B., Sarro, F.,
+			<a href="./jif/2016DoladoRHLS_ASOC.pdf" target="_blank">
+			Evaluation of Estimation Models using the Minimum Interval of Equivalence</a>, 
+			<i>Applied Soft Computing</i>, Vol. 49, Dec. 2016, pp. 956-967, 2016.
+			DOI: <a href="http://dx.doi.org/10.1016/j.asoc.2016.03.026" target="_blank">10.1016/j.asoc.2016.03.026</a>
+			[<a href="./jif/2016DoladoRHLS_ASOC.bib" target="_blank">Bib</a>]
+			[Replication package: <a href="https://github.com/danrodgar/MIERatio" target="_blank">
+			https://github.com/danrodgar/MIERatio</a>]
+			</li> 
+
+		       <li>Herraiz, I., Rodriguez, D., Robles, G., Gonzalez-Barahona, J.M.,
+			<a href="./jif/2013HerraizRRG_CSUR.pdf" target="_blank">
+			The evolution of the laws of software evolution: 
+			A discussion based on a systematic literature review</a>, 
+			<i>ACM Computing Surveys</i>, 46(2), Nov. 2013, Article 28.
+			DOI: <a	href="http://dx.doi.org/10.1145/2543581.2543595" target="_blank">10.1145/2543581.2543595</a>
+			[<a href="./jif/2013HerraizRRG_CSUR.bib" target="_blank">Bib</a>]
+			</li>    
+ 
+			<li>Rodriguez, D., Ruiz, R., Riquelme, J.C., Harrison, R., 
+			<a href="./jif/2013RodriguezRRH_IST.pdf" target="_blank">
+			A Study of Subgroup Discovery Approaches for Defect Prediction</a>, <i>Information and Software Technology</i>, 55(10), October 2013, pp. 1810-1822, DOI: <a
+			href="http://dx.doi.org/10.1016/j.infsof.2013.05.002" target="_blank">
+			10.1016/j.infsof.2013.05.002</a> [<a href="./jif/2013RodriguezRRH_IST.bib" target="_blank">Bib</a>]</li> 
+ 
+ 			<li>Rodriguez, D., Ruiz, R., Riquelme, J.C., Aguilar-Ruiz, J.S.,
+			<a href="./jif/RodriguezEtAl_INS2012.pdf" target="_blank">Searching for Rules to Detect
+			Defective Modules: A Subgroup Discovery Approach</a>, <i>Information
+			Sciences</i>, Vol. 191, 2012, pp. 14-30. DOI: <a
+			href="http://dx.doi.org/10.1016/j.ins.2011.01.039" target="_blank">
+			10.1016/j.ins.2011.01.039</a> [<a href="./jif/RodriguezEtAl_INS2012.bib" target="_blank">Bib</a>]</li> 
+ 	
+			<li>Rodriguez, D., Sicilia, M.A., Garc&iacute;a E., Harrison,
+			R., <a href="./jif/RodriguezEtAl_JSS12.pdf" target="_blank">Empirical Findings on Team Size and Productivity in Software Development</a>, <i>Journal of Systems and 	Software</i>, 85(3), March 2012, pp 562-570. DOI: <a href="http://dx.doi.org/10.1016/j.jss.2011.09.009" target="_blank">
+			10.1016/j.jss.2011.09.009</a> [<a href="./jif/RodriguezEtAl_JSS12.bib" target="_blank">Bib</a>]</li> 
+ 					
+	 	   <li>Sicilia, M.A., Rodr&iacute;guez, D., Garc&iacute;a, E., Sanchez, S. <a href="./jif/RodriguezEtAl_ESwA2011.pdf" target="_blank">
+	 	   Empirical Findings on Ontology Metrics</a>, <i>Expert Systems with Applications</i>, 39(8), 2012, pp. 6706-6711, DOI: <a href="http://dx.doi.org/10.1016/j.eswa.2011.11.094">10.1016/j.eswa.2011.11.094</a>
+			[<a href="./jif/2012SiciliaRGS_ESwA.bib" target="_blank">Bib</a>]</li>	
+			 		
+		 	<li>Ocampo, E., Maceiras, M., Herrera, S., Maurente, C., Rodr&iacute;guez, D., Sicilia, M.A., <a href="./jif/2011OcampoMHMRS-ESwA.pdf" target="_blank">Comparing Bayesian Inference and Case-Based Reasoning as Support Techniques in the Diagnosis of Acute Bacterial Meningitis</a>, <i>Expert Systems with Applications</i>, 38(8), 10343-10354, 2011, DOI: <a href="http://dx.doi.org/10.1016/j.eswa.2011.02.055" target="_blank">10.1016/j.eswa.2011.02.055</a>
+			[<a href="./jif/2011OcampoMHMRS-ESwA.bib" target="_blank">Bib</a>]			
+			</li>	
+			
+			<li>Garc&iacute;a-Barriocanal, E., S&aacute;nchez, S., Rodriguez,
+			D., <a href="./jif/2011GarciaSR-IJEE.pdf" target="_blank"> Devising Instruction from Empirical Findings on Student Errors: A Case in Usability Engineering Education</a>,
+			<i>International Journal of Engineering Education</i>, 27(1), pp. 1-7,
+			2011. [<a href="./jif/2011GarciaSR-IJEE.bib" target="_blank">Bib</a>]
+			</li>			
+						
+			<li> Rodriguez, D., Garc&iacute;a, E., S&aacute;nchez, S.and Rodr&iacute;guez-Solano, C., <a	href="./jif/RodriguezEtAl_IJSEKE10.pdf" target="_blank">Defining Software Process Models Constraints with Rules using OWL and SWRL</a>, <i>Intl Journal of Software Engineering and Knowledge Engineering</i>, 20(4), pp. 533-548, 2010. DOI:
+			<a href="http://dx.doi.org/10.1142/S0218194010004876" target="_blank">10.1142/S0218194010004876</a> [<a href="./jif/2010RodriguezGSR_IJSEKE.bib" target="_blank">Bib</a>][<a href="./jif/RodriguezEtAl_IJSEKE10ExtendedDraft.pdf" target="_blank">Extended Draft</a>]</li>
+			
+			<li> Sicilia, M.A., Garc&iacute;a, E.,
+			S&aacute;nchez, S. and Rodr&iacute;guez, D., <a
+			href="./jif/Sicilia.EtAl.2009.KER.pdf" target="_blank">Ontologies of engineering knowledge: general structure and the case of Software Engineering</a>, <i>The Knowledge Engineering Review</i>, 24(3), 309-326, 2009, DOI:
+			<a href="http://dx.doi.org/10.1017/S0269888909990087" target="_blank">10.1017/S0269888909990087</a> [<a href="./jif/Sicilia.EtAl.2009.KER.bib" target="_blank">Bib</a>]
+			
+			<li>Rodriguez, D., Sicilia, M.A., S&aacute;nchez, S., Lezcano, L. and Garcia, E., <a
+			href="./jif/RodriguezEtAl_ILE11.pdf" target="_blank">Exploring affiliation network models as a collaborative filtering mechanism in e-learning</a>, Interactive Learning
+			Environments, 19(4), pp. 317-331, 2011, 
+			DOI:<a href="http://dx.doi.org/10.1080/10494820903148610" target="_blank">
+			10.1080/10494820903148610 </a>
+			[<a href=".\jif\RodriguezEtAl_ILE11.bib" target="_blank">Bib</a>]</li>
+
+			<li>Rejas, R., Cuadrado, J.J., Sicilia, M.A.,
+			Rodriguez, D., <a href="./jif/RejasEtAl_SPIP07.pdf" target="_blank">SLA: A legal
+			assurance process model for software engineering management</a>, 
+			<i>Software Process: Improvement and Practice</i>, 12(2), 191-198. Wiley, 2007, 
+			DOI: <a href="http://dx.doi.org/10.1002/spip.315" target="_blank">10.1002/spip.315</a> 
+			[<a href="./jif/RejasEtAl_SPIP07.bib" target="_blank">Bib</a>]</li>
+
+			<li>Cuadrado, J.J., Rodriguez, D., Garre, M., Sicilia,
+			M.A., Garcia, A., <a href="./jif/CuadradoEtAl_JCST07.pdf" target="_blank">Software Project Effort Estimation Based on Multiple Parametric Models Generated Through Data Clustering</a> <i>Journal of Computer Science Technology</i>, 22(3), 371-378, 2007, DOI: <a href="http://dx.doi.org/10.1007/s11390-007-9043-5" target="_blank">10.1007/s11390-007-9043-5</a> [<a href="./jif/CuadradoEtAl_JCST2007.bib" target="_blank">Bib</a>]</li>
+				
+			<li>Rodr&iacute;guez, D., Sicilia, M.A., Cuadrado, J.J., Pfahl, D.,
+			&quot;<a href="./jif/RodriguezEtAl_TEdu06.pdf" target="_blank">e-Learning in project management
+			using simulation models: A case study based on the replication of an
+			experiment</a>&quot;, <i>IEEE Transactions on Education</i>, 49(4), 451-463,
+			November 2006, DOI: <a href="http://dx.doi.org/10.1109/TE.2006.882367" target="_blank">10.1109/TE.2006.882367</a> [<a href="./jif/RodriguezEtAl_TEdu06.bib" target="_blank">Bib</a>]</li>
+
+			<li>Cuadrado-Gallego, J.J., Sicilia, M.A., Garre
+			M., Rodr&iacute;guez, D., <a href="./jif/CuadradoEtAl_JSS2006.pdf" target="_blank">"An empirical study of
+			process-related attributes in segmented software cost-estimation
+			relationships,"</a> <i>Journal of Systems and Software</i>, 79(3), 351-361,
+			March 2006, DOI: <a href="http://dx.doi.org/10.1016/j.jss.2005.04.040" target="_blank">10.1016/j.jss.2005.04.040</a> [<a href="./jif/CuadradoEtAl_JSS2006.bib" target="_blank">Bib</a>]</li> 
+
+			<li>Siebel, N.T., Cook S., Satpathy M., Rodriguez, D., <a
+			href="./jif/2003SiebelEtAl_JSME.pdf" target="_blank">Latitudinal and Longitudinal Process
+			Diversity</a>, <em>Journal of Software Maintenance and Evolution</em>,
+			15(1), 9-25 , January/February 2003, Online ISSN: 1532-0618, Print ISSN:
+			1532-060X, DOI: <a href="http://dx.doi.org/10.1002/smr.264" target="_blank">10.1002/smr.264</a> [<a href="./jif/2003SiebelEtAl_JSME.bib" target="_blank">Bib</a>]</li>
+				
+			</ol>
+ <h1>Other Journal Publications</h1>
+					
+			<ol>
+				<li>Medina-Merodio, J. A., de Pablos-Heredero, C., Jim&eacute;nez-Rodr&iacute;guez, M. L., de Marcos-Ortega, L., Barchino-Plata, R., Rodriguez, D. & G&oacute;mez-Aguado, D. (2014), <a href="./jif/2014MedinaEtAl-DYNA.pdf">Análisis de la satisfacción de cliente mediante el uso de cuestinarios con preguntas</a>, <a href="http://www.redalyc.org/articulo.oa?id=49632758012">Dyna</a>, 81(188) 92-99, DOI: <a href="https://dx.doi.org/10.15446/dyna.v81n188.40144" target="_blank">10.15446/dyna.v81n188.40144</a> [<a href="./jif/2014MedinaEtAl-DYNA.bib" target="_blank">Bib</a>]
+				</li>
+
+
+
+				<li>Harrison, R., da Cruz, D., Henriques, P. and Pereira, M.J.V, Liu, S.-H. and Menzies, T. and Mernik, M., Rodr&iacute;guez, D., <a	href="./j/HarrisonEtAl_SEN12_Raise.pdf" target="_blank">Report from the first international workshop on realizing artificial intelligence synergies in software engineering (RAISE 2012)</a>, <i>SIGSOFT Software Engineering Notes</i>, 37(5),
+ 				34-35, Septermber 2012.[<a href="./j/HarrisonEtAl_SEN12_Raise.bib" target="_blank">Bib</a>]</li>
+			
+			
+ 				<li>Valiente, M.C., Vicente-Chicote, C., Rodriguez, D., <a
+ 				href="./j/Valiente_JSSMET_2_2_4_text.pdf" target="_blank">An Ontology-Based and Model-Driven	Approach for Designing IT Service Management Systems</a>, <i>International Journal of Service Science, Management, Engineering, and Technology</i>, 2(2),
+ 				65-81, April-June 2011, DOI:  <a href="https://dx.doi.org/10.4018/jssmet.2011040104" target="_blank">10.4018/jssmet.2011040104</a>
+				[<a href="./jif/2011ValienteCR_IJSSMET.bib" target="_blank">Bib</a>]
+				</li>
+
+				<li>Co-editor Special Issue: <a
+				href="http://www.sersc.org/journals/IJSEIA/vol4_no4_2010.php" target="_blank"> Advances in
+				Software Engineering with Soft-computing</a>, <i>International Journal of
+				Software Engineering and Its Applications</i>, 4(4), 2010</li>
+
+				<li>Riquelme, J.C., Ruiz, R., Rodriguez, D., Aguilar-Ruiz,
+				J.S., <a href="./j/2013RiquelmeEtAlIEEELA.pdf" target="_blank">"Finding Defective Modules by Means
+				of Data Mining Techniques"</a>, <i>IEEE Latin America Transactions</i>, 7(3),
+				377-382, July 2009.
+				DOI: <a	href="https://dx.doi.org/10.1109/TLA.2009.5336637" target="_blank">10.1109/TLA.2009.5336637</a>
+            [<a href="./j/2013RiquelmeEtAlIEEELA.bib" target="_blank">Bib</a>]
+				</li>
+
+				<li>Cuadrado, J.J., Gonz&aacute;lez-Sotos, L., Rodr&iacute;guez D.,
+				Sicilia, M.A. (2006, August). <a href="./j/CuadradoGallegoEtAl.Upgrade06.pdf" target="_blank">
+				Evolution of computer science studies in Spain in the European higher education
+				area.</a> <i>Upgrade</i> [Online]. <i>4 (7)</i>, 13-22. 
+				ISSN: 1684-5285.</li> 
+
+				<li>Rejas-Muslera, R.J., Cuadrado, J.J., Dolado, J.,
+				Rodr&iacute;guez, D. (2005, October). <a href="./j/RejasEtAl.Upgrade05.pdf" target="_blank">The
+				open source software vs. proprietary software debate and its impact on
+				technological innovation.</a> <i>Upgrade</i> [Online]. <i>6(5)</i>, 35-39. ISSN:
+				1684-5285.
+				</li> 
+
+				<li>Guti&eacute;rrez de Mesa, J.A., Rodriguez, D., Lytras,
+				M.D., (2005, October) <a href="./j/GutierrezdeMesaEtAl.Upgrade05.pdf">An Outlook
+				for Ubiquitous Computing: Computing Power Anywhere and in Any Device</A>,
+				<i>Upgrade</i> [Online]. 6(5), 3-7. 
+				ISSN: 1684-5285.
+				[Editorial Paper].</li>  
+
+ 				<li>Cuadrado, J.J., Rodr&iacute;guez, D., Sicilia, M., <a
+ 				href="./j/CuadradoEtAl.RPM04.pdf" target="_blank">&quot;Modelos segmentados de estimaci&oacute;n
+ 				del esfuerzo de desarrollo del software: un caso de estudio con la base de datos
+ 				ISBSG,&quot;</a><i>Revista de Procesos y M&eacute;tricas de las
+ 				Tecnolog&iacute;as de la Informaci&oacute;n (RPM)</i>, 1(2), 25-30, 2004. ISSN:
+ 				1698-2029.</li>
+
+ 				<li>Loconsole, I., Rodriguez, D., Borstler, J., Harrison,
+ 				R., <a href="./j/2001-LoconsoleRHJ-SoftEngNotes.pdf" target="_blank">Metrics 2001: The Science and Practice of Software Metrics Conference</a>, <i>Software Engineering Notes</i>, 26(6), 52-56, 2001, DOI: <a href="https://doi.org/10.1145/505532.505544" target="_blank">10.1145/505532.505544</a> <a href="./j/2001-LoconsoleRHJ-SoftEngNotes.bib" target="_blank">[Bib]</a></li> 
+
+			</ol>
+		
+			
+ <h2>ATI Nov&aacute;tica - Referencias autorizadas Ing. del SW (con J. Dolado).</h2>
+
+				
+					
+			<ol> 
+				<li>Dolado, J., Rodr&iacute;guez, D., <a
+				href="./j/refsIsw-n214-2011.pdf" target="_blank">"Rese&ntilde;as libros"</a>, <i>Nov&aacute;tica</i>,
+				214, nov-dic 2011</li>
+				
+				<li>Dolado, J., Rodr&iacute;guez, D., <a
+				href="./j/Nv213-2011.pdf" target="_blank">"Rese&ntilde;as libros"</a>, <i>Nov&aacute;tica</i>,
+				213, sept-oct 2011</li>			
+			
+				<li>Dolado, J., Rodr&iacute;guez, D., <a
+				href="./j/Nv210-2011.pdf" target="_blank">"Rese&ntilde;as libros"</a>, <i>Nov&aacute;tica</i>,
+				210, mar-abr 2011</li>
+				
+				<li>Dolado, J., Rodr&iacute;guez, D., <a
+				href="./j/Nv209-procesosagilesISWNovatica.pdf" target="_blank">"Procesos &Aacutegiles"</a>,
+				<i>Nov&aacute;tica</i>, 209, ene-feb 2011</li>
+			   
+				<li>Dolado, J., Rodr&iacute;guez, D., <a
+				href="./j/Nv208-Referencias.pdf" target="_blank">"Rese&ntilde;as libros"</a>,
+				<i>Nov&aacute;tica</i>, 208, nov-dic 2010</li>
+			
+				<li>Dolado, J., Rodr&iacute;guez, D., <a
+				href="./j/Nv207-Referencias.pdf" target="_blank">"Rese&ntilde;as libros"</a>,
+				<i>Nov&aacute;tica</i>, 207, sept-oct 2010</li>
+
+				<li>Rodr&iacute;guez, D., Dolado, J. Fern&aacute;ndez, L., <a
+				href="./j/Nv206-Referencias.pdf" target="_blank">"Miner&iacute;a de datos para la
+				Ingenier&iacute;a del Software"</a>, <i>Nov&aacute;tica</i>, 206, jul-ago
+				2010</li>
+		
+			</ol>
+			
+
+ <h1>Book Chapters</h1>
+			
+			<ol>
+			
+			<li>Reyes, E., Rodr&iacute;guez, D., Dolado, "<a
+			href="./b/ReyesRodriguezDolado.XBRL2009.pdf" target="_blank">Overview of Technologies for
+			Decision Making in Accounting Information Systems</a>", in <i>XBRL - Emerging
+			Language in Business Reporting</i>, Alagiri, D (Ed), The Icfai University Press,
+			2009. ISBN: 978-81-314-2450-6.</li>
+			
+			<li>Dolado, J., Rodriguez, D., Ferrer, F., Riquelme, J.,
+			Cuadrado, J.J., "<a href="./b/2007Dolado_TwoStage.pdf" target="_blank">A two stage zone
+			regression method for global characterisation of a project database</a>", in
+			<i>Advances in machine learning applications in software engineering</i>, Zangh,
+			D and Tsai, J., (Eds), Idea Group Publishing, 2007. ISBN: 1-59140-941-1.
+			DOI: <a href="https://doi.org/10.4018/978-1-59140-941-1.ch001" target="_blank">10.4018/978-1-59140-941-1.ch001</a> <a href="./b/2007Dolado_TwoStage.bib" target="_blank">[Bib]</a>
+			</li>
+			
+			<li>Rodr&iacute;guez, D., Dolado J., "<a
+			href="./b/RodriguezDolado.BBN.2007.pdf" target="_blank">Redes Bayesianas en la Ingenier&iacute;a
+			del Software</a>", en <i>T&eacute;cnicas cuantitativas para la gesti&oacute;n en
+			la ingenier&iacute;a del software</i>, Tuya, J., Ramos, I., Dolado, J. (Eds.),
+			Netbiblo, 2007, ISBN 9788497452045.</li>
+
+			<li>Rodr&iacute;guez, D., Harrison, R., "<a
+			href="./b/RodHarRama00.pdf" target="_blank">Medici&oacute;n en la Orientaci&oacute;n a
+			Objeto</a>", in <i>Medici&oacute;n para la Gesti&oacute;n en la
+			Ingenier&iacute;a del Software</i>, Dolado, J. and Fern&aacute;ndez, L., Eds.,
+			RA-MA, 2000, ISBN 84-7897-403-2. (<a href="./b/RodHarRama00.English.pdf">In
+			English</a>) </li>
+			
+			</ol>
+			
+		<h1>Book</h1> 
+		<ol> 
+		<li>S&aacute;nchez, S., Sicilia, M.A.,
+		Rodr&iacute;guez, D., <a
+		href="http://www.garceta.es/libro.php?ISBN=978-84-9281-240-0" target="_blank">Ingenier&iacute;a
+		del software</a>, Garceta Grupo Editorial, 2011. ISBN: 978-84-9281-240-0 (in Spanish)<a href="./l/">.</a>
+		</li> </ol>
+
+		<h1>Book Translation</h1> 
+		<ol> 
+		<li>We have also translated the SWEBOK
+			 (Software Engineering Body of Knowledge) 2004. Individual chapters can be
+			 downloaded from the <a
+			 href="http://www.computer.org/portal/web/swebok/spanish">IEEE SWEBOK web
+			 site</a>. A local copy can be downloaded from here: <a
+			 href="./b/HispaSWEBOK.Borrador.pdf" target="_blank">[HispaSWEBOK]</a>.
+			 References from all chapters: [<a href="./b/refsSWEBOK.bib" target="_blank">Bibtex</a>]
+		</li> 
+		</ol>
+
+ <h1>Thesis</h1>
+
+<ol>
+			
+		<li>Rodriguez, D., <a href="./theses/ThesisDRG.pdf" target="_blank">Design and Evaluation of Web Applications and Processes</a>, Reading University, UK, 2003</a>
+		</li>
+</ol>
+
+		</div> </div> </div> </body> </html>

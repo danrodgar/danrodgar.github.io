@@ -1,14 +1,14 @@
 html{height: 100%;}
 
 body
-{ background: #FFFFFF url(back_2.png) repeat-x;
-  color: #3E4244;
+{ background: #F6F8FB;
+  color: #1F2937;
 }
 
 blockquote
-{ background-color: #F1F4F5;
-  color: #3E4244;
-  border-color: #D4DBDE;
+{ background-color: #F3F4F6;
+  color: #1F2937;
+  border-color: #E5E7EB;
 }
 
 #links, #links a
@@ -22,60 +22,65 @@ blockquote
 }
 
 #logo {
-        background-image: url(logo_2.gif);
-	background-position: bottom;
-	background-repeat: no-repeat;
-	background-color:0xFFFFFF;
-	color: #3E4244;
-	border-color: #FFFFFF;
+  background: transparent;
+  color: #0F172A;
+  border-color: transparent;
 }
 
 
 #logo h1
 { background-color: transparent;
-  color: #FFFFFF;
+  color: #0F172A;
+}  
+
+#logo h2
+{ background-color: transparent;
+  color: #666666;
 }  
 
 #content, #column1, #column2
 { background-color: #FFFFFF;
-  color: #3E4244;
+  color: #1F2937;
 } 
 
 #column2 h1
 { background: transparent;
-  color: #3E4244;
-  border-color: #F1F4F5;
+  color: #0F172A;
+  border-color: #E5E7EB;
 }
 
 #menu, #addlinks, .sidebaritem
-{ background: #FFFFFF url(box_2.png) repeat-x;
-  color: #3E4244;
+{ background: #FFFFFF;
+  color: #1F2937;
+  border: 1px solid #E5E7EB;
+  border-radius: 0;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
 }
 
 #menu li a, #addlinks li a
 { background-color: transparent;
-  color: #3E4244;
-  border-color: #FFFFFF;
+  color: #0F172A;
+  border-color: #E5E7EB;
 } 
 
 #menu li a:hover, #menu li a#selected, #addlinks li a:hover
-{ background-color: #8D9299; 
+{ background-color: #2563EB; 
   color: #FFFFFF;
-  border-color: #FFFFFF;
+  border-color: #2563EB;
 } 
 
 .sidebaritem a, #column2 a
 { background-color: transparent;
-  color:1E 90 FF;
+  color: #2563EB;
 }
 
 .sidebaritem a:hover, #column2 a:hover
-{ background-color: #F1F4F5;
-  color: #3E4244;
+{ background-color: #EFF6FF;
+  color: #1E3A8A;
 }
 
 #footer, #footer a
-{ background-color: #8D9299;
+{ background-color: #111827;
   color:  #FFFFFF;
 }
 
@@ -86,6 +91,6 @@ blockquote
 
 input, textarea
 { background-color: #FFFFFF;
-  color: #3E4244;
-  border-color: #616D7B;
+  color: #111827;
+  border-color: #CBD5E1;
 }
